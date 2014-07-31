@@ -1,2 +1,3 @@
 # Settings in the config.yml are overriding Squib's defaults. Anything in the main script will override this.
 #dpi: 72
+progress_bar: true

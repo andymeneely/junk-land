@@ -12,11 +12,9 @@ bgimage = {
 }
 
 # Items and Blueprints decks
-Squib::Deck.new(cards: junk.size) do 
+Squib::Deck.new(cards: junk.size, config: 'config.yml') do 
   
-
   png file: junk.collect {|j| bgimage[j] }
 
-  Squib::logger.info 'Saving...'
   save format: :png
 end
