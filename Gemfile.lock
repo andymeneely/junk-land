@@ -1,0 +1,43 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    cairo (1.12.9-x86-mingw32)
+      pkg-config (>= 1.1.5)
+    gdk_pixbuf2 (2.2.0-x86-mingw32)
+      glib2 (= 2.2.0)
+    glib2 (2.2.0-x86-mingw32)
+      cairo (>= 1.12.8)
+      pkg-config
+    mercenary (0.3.4)
+    mini_portile (0.6.0)
+    nokogiri (1.6.3.1-x86-mingw32)
+      mini_portile (= 0.6.0)
+    pango (2.2.0-x86-mingw32)
+      cairo (>= 1.12.5)
+      glib2 (= 2.2.0)
+    pkg-config (1.1.5)
+    roo (1.13.2)
+      nokogiri
+      rubyzip
+      spreadsheet (> 0.6.4)
+    rsvg2 (2.2.0-x86-mingw32)
+      cairo (>= 1.12.8)
+      gdk_pixbuf2 (= 2.2.0)
+    ruby-ole (1.2.11.7)
+    ruby-progressbar (1.5.1)
+    rubyzip (1.1.6)
+    spreadsheet (0.9.7)
+      ruby-ole (>= 1.0)
+    squib (0.0.3)
+      cairo (~> 1.12.9)
+      mercenary (~> 0.3.4)
+      pango (~> 2.2.0)
+      roo (~> 1.13.2)
+      rsvg2 (~> 2.2.0)
+      ruby-progressbar (~> 1.5.1)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  squib
