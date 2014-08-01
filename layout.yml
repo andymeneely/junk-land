@@ -9,3 +9,8 @@ title:
   ellipsize: false
   color: '#2d3e77'
   spacing: -25
+string_icon:
+  x: 75
+  y: 75
+  width: 180
+  height: 180
