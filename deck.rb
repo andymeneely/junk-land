@@ -1,7 +1,7 @@
 require 'squib'
 require 'pp'
 
-deck = Squib.xlsx file: 'junk.xlsx'
+deck = Squib.xlsx file: 'deck.xlsx'
 junk = deck['Type'].select {|t| %w{item blueprint victory}.include? t }
 img = 'color'
 
@@ -16,14 +16,16 @@ bgimage = {
 id = {} ; deck['Name'].each_with_index{ |name,i| id[name] = i}
 
 # Items and Blueprints decks
-Squib::Deck.new(cards: junk.size, config: 'config.yml', layout: 'layout.yml') do 
+Squib::Deck.new(cards: junk.size, config: 'config.yml', layout: 'junk.yml') do 
 
   png file: junk.collect {|j| bgimage[j] }
   text str: deck['Name'], layout: :title
 
   knobs = id['Sack of Door Knobs']
-  save range: knobs, format: :png
-  svg range: knobs, file: 'resources.svg', id: 'string_icon', x: 0, y:0, layout: :string_icon
+  %w(string wood metal glass duct_tape).each do |resource|
+    svg range: knobs, file: 'resources.svg', id: resource, layout: resource
+  end
+
   png file: 'tgc-proof-overlay.png', alpha: 0.5
   save range: knobs, format: :png
 
