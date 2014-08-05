@@ -21,13 +21,15 @@ Squib::Deck.new(cards: junk.size, config: 'config.yml', layout: 'junk.yml') do
   png file: junk.collect {|j| bgimage[j] }
   text str: deck['Name'], layout: :title
 
-  knobs = id['Sack of Door Knobs']
   %w(string wood metal glass duct_tape).each do |resource|
-    svg range: knobs, file: 'resources.svg', id: resource, layout: resource
+    range = [] # only put svgs out on places with non-nil texts
+    deck[resource].each_with_index { |n, i| range << i unless n.nil? }
+    svg range: range, file: 'resources.svg', id: resource, layout: resource 
+    text range: range, str: deck[resource], layout: "#{resource}_text"
   end
 
   png file: 'tgc-proof-overlay.png', alpha: 0.5
-  save range: knobs, format: :png
+  save range: id['Sack of Door Knobs'], format: :png
 
   
   # save format: :png
