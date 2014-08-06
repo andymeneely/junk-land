@@ -29,8 +29,8 @@ Squib::Deck.new(cards: junk.size, config: 'config.yml', layout: 'junk.yml') do
   end
 
   png file: 'tgc-proof-overlay.png', alpha: 0.5
-  save range: id['Sack of Door Knobs'], format: :png
+  #save range: id['Sack of Door Knobs'], format: :png
 
   
-  # save format: :png
+   save format: :png
 end
