@@ -64,3 +64,32 @@ duct_tape_text:
   x: 581  
   y: 247
   color: '#333333'
+
+bonus: 
+  width: 205
+  height: 205
+bonus_text:
+  width: 60
+  height: 60
+  font: 'Action Man bold 45'
+  spacing: -28
+
+bonus1: 
+  extends: bonus
+  x: 75
+  y: 880
+bonus1_text:
+  extends: bonus_text
+  x: 72
+  y: 877
+  valign: !ruby/symbol middle
+  align: !ruby/symbol center
+
+bonus2: 
+  extends: bonus
+  x: 75
+  y: 880
+bonus2_text:
+  extends: bonus_text
+  x: 572
+  y: 877

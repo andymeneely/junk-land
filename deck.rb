@@ -28,9 +28,12 @@ Squib::Deck.new(cards: junk.size, config: 'config.yml', layout: 'junk.yml') do
     text range: range, str: deck[resource], layout: "#{resource}_text"
   end
 
+  svg file: 'junk-bonuses.svg', id: 'capacity', layout: :bonus1
+  text str: deck['BonusNum1'], layout: :bonus1_text, color: '#613e1b'
+
   png file: 'tgc-proof-overlay.png', alpha: 0.5
-  #save range: id['Sack of Door Knobs'], format: :png
+  save range: id['Sack of Door Knobs'], format: :png
 
   
-   save format: :png
+  #save format: :png
 end
