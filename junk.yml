@@ -29,7 +29,7 @@ string:
 string_text:
   extends: top_icon_text
   x: 75
-  color: '#800080'
+  color: string_dark
 
 wood:
   extends: top_icons
@@ -37,7 +37,7 @@ wood:
 wood_text:
   extends: top_icon_text
   x: 243
-  color: '#552200'
+  color: wood_dark
 
 metal:
   extends: top_icons
@@ -45,7 +45,7 @@ metal:
 metal_text:
   extends: top_icon_text
   x: 412
-  color: '#4d4d4d'
+  color: metal_dark
 
 glass:
   extends: top_icons
@@ -53,7 +53,7 @@ glass:
 glass_text:
   extends: top_icon_text
   x: 581
-  color: '#008080'
+  color: glass_dark
 
 duct_tape:
   extends: top_icons
@@ -63,7 +63,7 @@ duct_tape_text:
   extends: top_icon_text
   x: 581  
   y: 247
-  color: '#333333'
+  color: duct_tape_dark
 
 bonus: 
   width: 205

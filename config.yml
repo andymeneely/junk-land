@@ -9,3 +9,11 @@
 
 # Show progress bars on the command line for potentially long-running operations
 progress_bars: true
+
+#Enable some custom colors that can be used in any color
+custom_colors:
+  wood_dark: '#552200'
+  string_dark: '#800080'
+  metal_dark: '#4d4d4d'
+  glass_dark: '#008080'
+  duct_tape_dark: '#333333'
