@@ -13,8 +13,8 @@
    height="1052.3622047"
    id="svg3803"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="resources.svg">
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="icons.svg">
   <defs
      id="defs3805">
     <inkscape:path-effect
@@ -41,16 +41,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35355339"
-     inkscape:cx="-185.33791"
-     inkscape:cy="749.59169"
+     inkscape:cx="-411.61208"
+     inkscape:cy="1767.8255"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1680"
-     inkscape:window-height="988"
-     inkscape:window-x="1432"
-     inkscape:window-y="109"
-     inkscape:window-maximized="1"
+     inkscape:window-width="451"
+     inkscape:window-height="445"
+     inkscape:window-x="990"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      showguides="true"
      inkscape:guide-bbox="true">
     <sodipodi:guide
@@ -634,149 +634,152 @@
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ccc" />
     </g>
-    <rect
-       inkscape:export-ydpi="55.878246"
-       inkscape:export-xdpi="55.878246"
-       inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\capacity.png"
-       ry="28.071495"
-       y="82.663902"
-       x="-657.13434"
-       height="222.41258"
-       width="275"
-       id="rect4018"
-       style="fill:#613e1b;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-    <rect
-       inkscape:export-ydpi="55.878246"
-       inkscape:export-xdpi="55.878246"
-       inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\capacity.png"
-       style="fill:#a66c32;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="rect4020"
-       width="275"
-       height="226.4532"
-       x="-657.13434"
-       y="61.480427"
-       ry="28.581474" />
-    <path
-       inkscape:export-ydpi="55.878246"
-       inkscape:export-xdpi="55.878246"
-       inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\capacity.png"
-       sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0"
-       id="path4022"
-       d="m -549.827,147.75122 c -27.77375,-16.89206 -22.67018,6.74394 -32.98092,6.12596"
-       style="fill:none;stroke:#ffffff;stroke-width:5.44544172;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-    <path
-       inkscape:export-ydpi="55.878246"
-       inkscape:export-xdpi="55.878246"
-       inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\capacity.png"
-       sodipodi:nodetypes="sssss"
-       inkscape:connector-curvature="0"
-       id="path4024"
-       d="m -538.42691,144.30282 c 0.46567,4.1772 -1.39003,9.54023 -5.56724,9.54023 -4.17721,0 -8.27045,-1.24482 -8.40666,-7.56349 -0.0906,-4.20211 4.35517,-9.37552 8.53236,-9.37552 4.17721,0 4.97588,3.22157 5.44154,7.39878 z"
-       style="fill:#ffffff;fill-opacity:1;stroke:none" />
-    <path
-       inkscape:export-ydpi="55.878246"
-       inkscape:export-xdpi="55.878246"
-       inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\capacity.png"
-       sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0"
-       id="path4026"
-       d="m -546.80702,138.64333 c -10.24569,-5.75719 -13.16881,-14.19994 -26.57454,-10.8871"
-       style="fill:none;stroke:#ffffff;stroke-width:5.44544172;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-    <path
-       sodipodi:nodetypes="cscsc"
-       inkscape:connector-curvature="0"
-       id="path4040"
-       d="m -517.93665,174.70753 c -2.68923,-4.10785 -29.29311,-23.8067 -22.49252,-53.42307 7.24123,-31.535268 38.72427,-1.48142 38.72427,-1.48142 0,0 19.53975,-6.33332 33.86711,-3.90018 20.1853,3.42797 -16.28787,65.281 -50.09886,58.80467 z"
-       style="fill:#ffffff;fill-opacity:1;stroke:#a66c32;stroke-width:5.44544172;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\capacity.png"
-       inkscape:export-xdpi="55.878246"
-       inkscape:export-ydpi="55.878246" />
-    <path
-       sodipodi:nodetypes="zzzzzz"
-       inkscape:connector-curvature="0"
-       id="path4042"
-       d="m -524.96377,156.63163 c 34.27539,0.99469 33.90745,38.99427 43.79094,76.67462 9.8835,37.68033 -26.83843,48.70979 -39.15232,49.13037 -12.31388,0.42059 -28.61607,0.97741 -40.92996,1.39799 -12.31388,0.42059 -55.28998,-4.09466 -49.75658,-46.09364 5.53341,-41.99898 51.77253,-82.10403 86.04792,-81.10934 z"
-       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#a66c32;stroke-width:6.80680227;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-       inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\capacity.png"
-       inkscape:export-xdpi="55.878246"
-       inkscape:export-ydpi="55.878246" />
-    <path
-       sodipodi:nodetypes="csscc"
-       inkscape:connector-curvature="0"
-       id="path4044"
-       d="m -523.52756,156.1567 c 0,0 0.0578,-57.613338 15.02715,-58.720148 3.46302,-0.25604 20.58899,3.178348 22.96639,6.827958 9.93159,15.24641 -21.39717,55.94561 -21.39717,55.94561 z"
-       style="fill:#ffffff;stroke:#a66c32;stroke-width:5.44544172;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\capacity.png"
-       inkscape:export-xdpi="55.878246"
-       inkscape:export-ydpi="55.878246" />
-    <path
-       sodipodi:nodetypes="cssccc"
-       inkscape:connector-curvature="0"
-       id="path4046"
-       d="m -495.33318,156.78141 c 8.38552,6.73716 8.99309,20.47796 3.64569,22.13748 -1.29183,0.40091 -3.95397,-0.34726 -4.94049,-3.26341 -8.15341,-24.10151 -34.60346,-20.44742 -47.55872,-15.51193 -5.44343,-2.2231 -2.76652,-15.94782 4.48289,-19.88475 15.12128,-4.84502 34.62862,6.1258 44.37063,16.52261 z"
-       style="fill:#ffffff;fill-opacity:1;stroke:#a66c32;stroke-width:5.44544172;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\capacity.png"
-       inkscape:export-xdpi="55.878246"
-       inkscape:export-ydpi="55.878246" />
-    <path
-       inkscape:export-ydpi="55.878246"
-       inkscape:export-xdpi="55.878246"
-       sodipodi:type="arc"
-       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#a66c32;stroke-width:9.80000019;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-       id="path4048"
-       sodipodi:cx="214.15234"
-       sodipodi:cy="329.59805"
-       sodipodi:rx="61.114227"
-       sodipodi:ry="61.114227"
-       d="m 275.26657,329.59805 a 61.114227,61.114227 0 1 1 -122.22845,0 61.114227,61.114227 0 1 1 122.22845,0 z"
-       transform="matrix(0.75654599,0,0,0.75654599,-812.06523,-168.32547)"
-       inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\capacity.png" />
     <g
-       id="g4063"
-       transform="translate(-764.23896,-545.50195)"
-       inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\capacity.png"
-       inkscape:export-xdpi="55.878246"
-       inkscape:export-ydpi="55.878246">
+       id="g6489">
+      <rect
+         style="fill:#613e1b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4018"
+         width="275"
+         height="222.41258"
+         x="-657.13434"
+         y="82.663902"
+         ry="28.071495"
+         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\capacity.png"
+         inkscape:export-xdpi="55.878246"
+         inkscape:export-ydpi="55.878246" />
+      <rect
+         ry="28.581474"
+         y="61.480427"
+         x="-657.13434"
+         height="226.4532"
+         width="275"
+         id="rect4020"
+         style="fill:#a66c32;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\capacity.png"
+         inkscape:export-xdpi="55.878246"
+         inkscape:export-ydpi="55.878246" />
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:5.44544172;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m -549.827,147.75122 c -27.77375,-16.89206 -22.67018,6.74394 -32.98092,6.12596"
+         id="path4022"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\capacity.png"
+         inkscape:export-xdpi="55.878246"
+         inkscape:export-ydpi="55.878246" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         d="m -538.42691,144.30282 c 0.46567,4.1772 -1.39003,9.54023 -5.56724,9.54023 -4.17721,0 -8.27045,-1.24482 -8.40666,-7.56349 -0.0906,-4.20211 4.35517,-9.37552 8.53236,-9.37552 4.17721,0 4.97588,3.22157 5.44154,7.39878 z"
+         id="path4024"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="sssss"
+         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\capacity.png"
+         inkscape:export-xdpi="55.878246"
+         inkscape:export-ydpi="55.878246" />
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:5.44544172;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m -546.80702,138.64333 c -10.24569,-5.75719 -13.16881,-14.19994 -26.57454,-10.8871"
+         id="path4026"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\capacity.png"
+         inkscape:export-xdpi="55.878246"
+         inkscape:export-ydpi="55.878246" />
+      <path
+         inkscape:export-ydpi="55.878246"
+         inkscape:export-xdpi="55.878246"
+         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\capacity.png"
+         style="fill:#ffffff;fill-opacity:1;stroke:#a66c32;stroke-width:5.44544172;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m -517.93665,174.70753 c -2.68923,-4.10785 -29.29311,-23.8067 -22.49252,-53.42307 7.24123,-31.535268 38.72427,-1.48142 38.72427,-1.48142 0,0 19.53975,-6.33332 33.86711,-3.90018 20.1853,3.42797 -16.28787,65.281 -50.09886,58.80467 z"
+         id="path4040"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cscsc" />
+      <path
+         inkscape:export-ydpi="55.878246"
+         inkscape:export-xdpi="55.878246"
+         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\capacity.png"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#a66c32;stroke-width:6.80680227;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m -524.96377,156.63163 c 34.27539,0.99469 33.90745,38.99427 43.79094,76.67462 9.8835,37.68033 -26.83843,48.70979 -39.15232,49.13037 -12.31388,0.42059 -28.61607,0.97741 -40.92996,1.39799 -12.31388,0.42059 -55.28998,-4.09466 -49.75658,-46.09364 5.53341,-41.99898 51.77253,-82.10403 86.04792,-81.10934 z"
+         id="path4042"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zzzzzz" />
+      <path
+         inkscape:export-ydpi="55.878246"
+         inkscape:export-xdpi="55.878246"
+         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\capacity.png"
+         style="fill:#ffffff;stroke:#a66c32;stroke-width:5.44544172;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m -523.52756,156.1567 c 0,0 0.0578,-57.613338 15.02715,-58.720148 3.46302,-0.25604 20.58899,3.178348 22.96639,6.827958 9.93159,15.24641 -21.39717,55.94561 -21.39717,55.94561 z"
+         id="path4044"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csscc" />
+      <path
+         inkscape:export-ydpi="55.878246"
+         inkscape:export-xdpi="55.878246"
+         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\capacity.png"
+         style="fill:#ffffff;fill-opacity:1;stroke:#a66c32;stroke-width:5.44544172;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m -495.33318,156.78141 c 8.38552,6.73716 8.99309,20.47796 3.64569,22.13748 -1.29183,0.40091 -3.95397,-0.34726 -4.94049,-3.26341 -8.15341,-24.10151 -34.60346,-20.44742 -47.55872,-15.51193 -5.44343,-2.2231 -2.76652,-15.94782 4.48289,-19.88475 15.12128,-4.84502 34.62862,6.1258 44.37063,16.52261 z"
+         id="path4046"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cssccc" />
+      <path
+         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\capacity.png"
+         transform="matrix(0.75654599,0,0,0.75654599,-812.06523,-168.32547)"
+         d="m 275.26657,329.59805 a 61.114227,61.114227 0 1 1 -122.22845,0 61.114227,61.114227 0 1 1 122.22845,0 z"
+         sodipodi:ry="61.114227"
+         sodipodi:rx="61.114227"
+         sodipodi:cy="329.59805"
+         sodipodi:cx="214.15234"
+         id="path4048"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#a66c32;stroke-width:9.80000019;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc"
+         inkscape:export-xdpi="55.878246"
+         inkscape:export-ydpi="55.878246" />
       <g
-         id="g4101"
-         transform="translate(8.3188904,-149.04113)">
-        <rect
-           transform="matrix(0.84574588,0.5335859,-0.81154105,0.58429541,0,0)"
-           ry="0"
-           y="480.67172"
-           x="878.24976"
-           height="83.466293"
-           width="53.184029"
-           id="rect4032"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#a66c32;stroke-width:4.03361368;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#a66c32;stroke-width:3.99210191;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-           id="rect4034"
-           width="53.184029"
-           height="83.466293"
-           x="872.45166"
-           y="474.40921"
-           ry="0"
-           transform="matrix(0.84574588,0.5335859,-0.81154105,0.58429541,0,0)" />
-        <rect
-           transform="matrix(0.84574588,0.5335859,-0.81154105,0.58429541,0,0)"
-           ry="0"
-           y="467.12665"
-           x="866.27533"
-           height="83.466293"
-           width="53.184029"
-           id="rect4036"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#a66c32;stroke-width:3.99210191;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#a66c32;stroke-width:3.99207306;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-           id="rect4038"
-           width="53.184029"
-           height="83.466293"
-           x="859.66632"
-           y="460.23917"
-           ry="0"
-           transform="matrix(0.84574588,0.5335859,-0.81154105,0.58429541,0,0)" />
+         inkscape:export-ydpi="55.878246"
+         inkscape:export-xdpi="55.878246"
+         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\capacity.png"
+         transform="translate(-764.23896,-545.50195)"
+         id="g4063">
+        <g
+           transform="translate(8.3188904,-149.04113)"
+           id="g4101">
+          <rect
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#a66c32;stroke-width:4.03361368;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+             id="rect4032"
+             width="53.184029"
+             height="83.466293"
+             x="878.24976"
+             y="480.67172"
+             ry="0"
+             transform="matrix(0.84574588,0.5335859,-0.81154105,0.58429541,0,0)" />
+          <rect
+             transform="matrix(0.84574588,0.5335859,-0.81154105,0.58429541,0,0)"
+             ry="0"
+             y="474.40921"
+             x="872.45166"
+             height="83.466293"
+             width="53.184029"
+             id="rect4034"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#a66c32;stroke-width:3.99210191;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+          <rect
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#a66c32;stroke-width:3.99210191;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+             id="rect4036"
+             width="53.184029"
+             height="83.466293"
+             x="866.27533"
+             y="467.12665"
+             ry="0"
+             transform="matrix(0.84574588,0.5335859,-0.81154105,0.58429541,0,0)" />
+          <rect
+             transform="matrix(0.84574588,0.5335859,-0.81154105,0.58429541,0,0)"
+             ry="0"
+             y="460.23917"
+             x="859.66632"
+             height="83.466293"
+             width="53.184029"
+             id="rect4038"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#a66c32;stroke-width:3.99207306;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+        </g>
       </g>
     </g>
     <rect
