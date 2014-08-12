@@ -17,3 +17,7 @@ custom_colors:
   metal_dark: '#4d4d4d'
   glass_dark: '#008080'
   duct_tape_dark: '#333333'
+  initiative: '#6a0816'
+  take_one: '#161650'
+  capacity: '#613e1b'
+  remove: '#002255'

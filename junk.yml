@@ -29,7 +29,6 @@ string:
 string_text:
   extends: top_icon_text
   x: 75
-  color: string_dark
 
 wood:
   extends: top_icons
@@ -37,7 +36,6 @@ wood:
 wood_text:
   extends: top_icon_text
   x: 243
-  color: wood_dark
 
 metal:
   extends: top_icons
@@ -45,7 +43,6 @@ metal:
 metal_text:
   extends: top_icon_text
   x: 412
-  color: metal_dark
 
 glass:
   extends: top_icons
@@ -53,7 +50,6 @@ glass:
 glass_text:
   extends: top_icon_text
   x: 581
-  color: glass_dark
 
 duct_tape:
   extends: top_icons
@@ -63,33 +59,30 @@ duct_tape_text:
   extends: top_icon_text
   x: 581  
   y: 247
-  color: duct_tape_dark
 
 bonus: 
   width: 205
   height: 205
+  y: 880
 bonus_text:
   width: 60
   height: 60
+  y: 877
+  valign: !ruby/symbol middle
+  align: !ruby/symbol center
   font: 'Action Man bold 45'
   spacing: -28
 
 bonus1: 
   extends: bonus
   x: 75
-  y: 880
 bonus1_text:
   extends: bonus_text
   x: 72
-  y: 877
-  valign: !ruby/symbol middle
-  align: !ruby/symbol center
 
 bonus2: 
   extends: bonus
-  x: 75
-  y: 880
+  x: 545
 bonus2_text:
   extends: bonus_text
-  x: 572
-  y: 877
+  x: 542

@@ -1,9 +1,16 @@
 require 'squib'
 require 'pp'
 
-deck = Squib.xlsx file: 'deck.xlsx'
+deck = Squib.xlsx file: 'deck.xlsx', replace_spaces: '_'
 junk = deck['Type'].select {|t| %w{item blueprint victory}.include? t }
 img = 'color'
+
+# Replace spaces with underscores to be more programmer-friendly
+%w(Bonus1Type Bonus2Type).each do |bonus|
+  deck[bonus].each_with_index do |type|
+    type.gsub!(' ', '_') unless type.nil?
+  end
+end
 
 #TODO put this into excel
 bgimage = {
@@ -28,13 +35,15 @@ Squib::Deck.new(cards: junk.size, config: 'config.yml', layout: 'junk.yml') do
     text range: range, str: deck[resource], layout: "#{resource}_text"
   end
 
-  svg file: 'junk-bonuses.svg', id: deck['BonusType1'], layout: :bonus1
-  text str: deck['BonusNum1'], layout: :bonus1_text, color: '#613e1b'
+  svg file: 'junk-bonuses.svg', id: deck['Bonus1Type'], layout: :bonus1, force_id: true
+  text str: deck['Bonus1Num'], layout: :bonus1_text, color: :black
+
+  svg file: 'junk-bonuses.svg', id: deck['Bonus2Type'], layout: :bonus2, force_id: true
+  text str: deck['Bonus2Num'], layout: :bonus2_text, color: :black
 
   png file: 'tgc-proof-overlay.png', alpha: 0.5
-  save range: id['Stylish Grandfather Clock']..id['Folksy Acoustic Guitar'], 
+  save range: id['Steampunk Zeppelin'], 
        format: :png
-
   
-  #save format: :png
+  # save format: :png
 end
