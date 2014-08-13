@@ -73,16 +73,23 @@ bonus_text:
   font: 'Action Man bold 45'
   spacing: -28
 
-bonus1: 
+bonus1_left: 
   extends: bonus
-  x: 75
-bonus1_text:
+  x: 150
+bonus1_left_text:
   extends: bonus_text
-  x: 72
+  x: 147
+
+bonus1_middle: 
+  extends: bonus
+  x: 307
+bonus1_middle_text:
+  extends: bonus_text
+  x: 304
 
 bonus2: 
   extends: bonus
-  x: 545
+  x: 465
 bonus2_text:
   extends: bonus_text
-  x: 542
+  x: 462
