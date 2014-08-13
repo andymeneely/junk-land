@@ -68,6 +68,7 @@ bonus_text:
   width: 60
   height: 60
   y: 876
+  color: black
   valign: !ruby/symbol middle
   align: !ruby/symbol center
   font: 'Action Man bold 45'
@@ -93,3 +94,33 @@ bonus2:
 bonus2_text:
   extends: bonus_text
   x: 462
+
+convert:
+  x: 260
+  y: 880
+  width: 315
+  height: 315
+convert_type:
+  y: 920
+  width: 120
+  height: 120
+convert_type_from:
+  extends: convert_type
+  x: 270  
+convert_type_to:
+  extends: convert_type
+  x: 450  
+convert_text:
+  valign: !ruby/symbol middle
+  align: !ruby/symbol center
+  font: 'Permanent Marker 30'
+  spacing: -28
+  width: 40
+  height: 40
+  y: 922
+convert_text_from:
+  extends: convert_text
+  x: 272
+convert_text_to:
+  extends: convert_text
+  x: 452  

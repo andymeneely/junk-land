@@ -24,11 +24,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="4.4119322"
-     inkscape:cy="5.3846316"
+     inkscape:zoom="5.6"
+     inkscape:cx="51.517755"
+     inkscape:cy="55.592168"
      inkscape:document-units="px"
-     inkscape:current-layer="layer10"
+     inkscape:current-layer="layer12"
      showgrid="false"
      units="in"
      inkscape:snap-page="true"
@@ -2022,7 +2022,7 @@
          sodipodi:cy="329.59805"
          sodipodi:rx="61.114227"
          sodipodi:ry="61.114227"
-         d="m 275.26657,329.59805 c 0,33.75246 -27.36177,61.11423 -61.11423,61.11423 -33.75245,0 -61.11422,-27.36177 -61.11422,-61.11423 0,-33.75245 27.36177,-61.11422 61.11422,-61.11422 33.75246,0 61.11423,27.36177 61.11423,61.11422 z"
+         d="m 275.26657,329.59805 a 61.114227,61.114227 0 1 1 -122.22845,0 61.114227,61.114227 0 1 1 122.22845,0 z"
          transform="matrix(0.19716587,0,0,0.19716587,-29.20778,-51.969733)" />
       <g
          id="g3239"
@@ -2249,6 +2249,94 @@
            inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\victory.png"
            inkscape:export-xdpi="62.80891"
            inkscape:export-ydpi="62.80891" />
+      </g>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer12"
+     inkscape:label="convert">
+    <g
+       id="convert"
+       inkscape:label="#g4816">
+      <rect
+         inkscape:export-ydpi="55.878246"
+         inkscape:export-xdpi="55.878246"
+         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\convert anything to duct tape.png"
+         ry="4.4873934"
+         y="13.612509"
+         x="-2.8857892e-006"
+         height="35.553959"
+         width="90"
+         id="rect4513"
+         style="fill:#161650;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="55.878246"
+         inkscape:export-xdpi="55.878246"
+         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\convert anything to duct tape.png"
+         style="fill:#5500d4;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4519"
+         width="90"
+         height="38.234509"
+         x="-2.8857892e-006"
+         y="8.191576"
+         ry="4.8257151" />
+      <path
+         inkscape:export-ydpi="55.878246"
+         inkscape:export-xdpi="55.878246"
+         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\convert anything to duct tape.png"
+         transform="matrix(0.12093832,0,0,0.12093832,18.915424,-31.877388)"
+         d="m 275.26657,329.59805 a 61.114227,61.114227 0 1 1 -122.22845,0 61.114227,61.114227 0 1 1 122.22845,0 z"
+         sodipodi:ry="61.114227"
+         sodipodi:rx="61.114227"
+         sodipodi:cy="329.59805"
+         sodipodi:cx="214.15234"
+         id="path4524-6"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#5500d4;stroke-width:9.80000019000000040;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <text
+         xml:space="preserve"
+         style="font-size:8.62723732000000080px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#5500d4;fill-opacity:1;stroke:none;font-family:Action Man Shaded;-inkscape-font-specification:Action Man Shaded"
+         x="40.690578"
+         y="12.609936"
+         id="text4526-0"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\convert anything to duct tape.png"
+         inkscape:export-xdpi="55.878246"
+         inkscape:export-ydpi="55.878246"><tspan
+           sodipodi:role="line"
+           id="tspan4528-6"
+           x="40.690578"
+           y="12.609936"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#5500d4;fill-opacity:1;font-family:Action Man;-inkscape-font-specification:Action Man"><tspan
+   style="font-size:15.10065842000000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#5500d4;fill-opacity:1;font-family:Action Man;-inkscape-font-specification:Action Man"
+   id="tspan4530-6">1</tspan>x</tspan></text>
+      <g
+         id="g4532"
+         transform="matrix(0.18787575,0,0,0.20533208,-0.17120787,-106.1837)"
+         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\convert anything to duct tape.png"
+         inkscape:export-xdpi="55.878246"
+         inkscape:export-ydpi="55.878246">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4535"
+           d="m 211,662.11218 73.76815,0"
+           style="fill:none;stroke:#ffffff;stroke-width:10.15157986;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <g
+           id="g4537">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4539"
+             d="m 257.81135,635.03945 25.64545,25.64546"
+             style="fill:none;stroke:#ffffff;stroke-width:10.15157986;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+             sodipodi:nodetypes="cc" />
+          <path
+             sodipodi:nodetypes="cc"
+             style="fill:none;stroke:#ffffff;stroke-width:10.15157986;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+             d="m 257.81135,689.1849 25.64546,-25.64545"
+             id="path4543"
+             inkscape:connector-curvature="0" />
+        </g>
       </g>
     </g>
   </g>

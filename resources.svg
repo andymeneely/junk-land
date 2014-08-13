@@ -13,7 +13,7 @@
    height="90"
    id="svg3803"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="resources.svg">
   <defs
      id="defs3805">
@@ -40,16 +40,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="33.448235"
-     inkscape:cy="15.903403"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="69.446623"
+     inkscape:cy="29.642807"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer5"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1018"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1680"
+     inkscape:window-height="988"
+     inkscape:window-x="1432"
+     inkscape:window-y="109"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -232,7 +232,7 @@
          inkscape:export-xdpi="56.41"
          inkscape:export-filename="G:\apmeneel\Dropbox\Art\Junk Land\wood.png"
          transform="matrix(0.75654599,0,0,0.75654599,-161.75248,-167.43122)"
-         d="m 275.26657,329.59805 c 0,33.75246 -27.36177,61.11423 -61.11423,61.11423 -33.75245,0 -61.11422,-27.36177 -61.11422,-61.11423 0,-33.75245 27.36177,-61.11422 61.11422,-61.11422 33.75246,0 61.11423,27.36177 61.11423,61.11422 z"
+         d="m 275.26657,329.59805 a 61.114227,61.114227 0 1 1 -122.22845,0 61.114227,61.114227 0 1 1 122.22845,0 z"
          sodipodi:ry="61.114227"
          sodipodi:rx="61.114227"
          sodipodi:cy="329.59805"
@@ -550,6 +550,63 @@
          id="path5654"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:9.80000019;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
          sodipodi:type="arc" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="anything">
+    <g
+       id="anything"
+       inkscape:label="#g5988">
+      <rect
+         inkscape:export-ydpi="56.41"
+         inkscape:export-xdpi="56.41"
+         inkscape:export-filename="G:\apmeneel\Dropbox\Art\Junk Land\duct tape.png"
+         ry="9.209671"
+         y="11.741424"
+         x="11.427888"
+         height="72.968925"
+         width="72.968925"
+         id="rect4936"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <path
+         inkscape:export-ydpi="56.41"
+         inkscape:export-xdpi="56.41"
+         inkscape:export-filename="G:\apmeneel\Dropbox\Art\Junk Land\duct tape.png"
+         transform="matrix(0.2501168,0,0,0.2501168,-37.051835,-65.926738)"
+         d="m 275.26657,329.59805 a 61.114227,61.114227 0 1 1 -122.22845,0 61.114227,61.114227 0 1 1 122.22845,0 z"
+         sodipodi:ry="61.114227"
+         sodipodi:rx="61.114227"
+         sodipodi:cy="329.59805"
+         sodipodi:cx="214.15234"
+         id="path4938"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:9.80000019;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#5500d4;stroke-width:9.80000019000000040;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="path4946"
+         sodipodi:cx="214.15234"
+         sodipodi:cy="329.59805"
+         sodipodi:rx="61.114227"
+         sodipodi:ry="61.114227"
+         d="m 275.26657,329.59805 a 61.114227,61.114227 0 1 1 -122.22845,0 61.114227,61.114227 0 1 1 122.22845,0 z"
+         transform="matrix(0.2501168,0,0,0.2501168,-37.051835,-65.926738)"
+         inkscape:export-filename="G:\apmeneel\Dropbox\Art\Junk Land\duct tape.png"
+         inkscape:export-xdpi="56.41"
+         inkscape:export-ydpi="56.41" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5105"
+         y="71.396645"
+         x="26.476624"
+         style="font-size:68.80921936000000000px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#5500d4;fill-opacity:1;stroke:none;font-family:Archivo Black;-inkscape-font-specification:Archivo Black"
+         xml:space="preserve"><tspan
+           y="71.396645"
+           x="26.476624"
+           id="tspan5107"
+           sodipodi:role="line">?</tspan></text>
     </g>
   </g>
 </svg>

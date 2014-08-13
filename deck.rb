@@ -7,7 +7,7 @@ junk = deck['Type'].select {|t| %w{item blueprint victory}.include? t }
 img = 'color'
 
 # Replace spaces with programmer-friendly underscores
-%w(Bonus1Type Bonus2Type).each { |b| underscorify(deck[b]) }
+%w(Bonus1Type Bonus2Type ConvType Conv2Type).each { |b| underscorify(deck[b]) }
 
 #Layout Bonus1 to the left if there's two bonuses, middle otherwise
 bonus1_layout = deck['Bonus2Type'].collect {|t| t.to_s.empty? ? :bonus1_middle : :bonus1_left }
@@ -36,13 +36,19 @@ Squib::Deck.new(cards: junk.size, config: 'config.yml', layout: 'junk.yml') do
   end
 
   svg file: 'junk-bonuses.svg', id: deck['Bonus1Type'], layout: bonus1_layout, force_id: true
-  text str: deck['Bonus1Num'], layout: bonus1_layout_text, color: :black
+  text str: deck['Bonus1Num'], layout: bonus1_layout_text
 
   svg file: 'junk-bonuses.svg', id: deck['Bonus2Type'], layout: :bonus2, force_id: true
-  text str: deck['Bonus2Num'], layout: :bonus2_text, color: :black
+  text str: deck['Bonus2Num'], layout: :bonus2_text
 
-  png file: 'tgc-proof-overlay.png', alpha: 0.5
-  #save range: id['Sack of Door Knobs']..id['Rusty Bicycle Chain'], format: :png
+  svg file: 'junk-bonuses.svg', id: deck['Convert'], layout: :convert, force_id: true
+  svg file: 'resources.svg', id: deck['ConvType'], layout: :convert_type_from, force_id: true
+  svg file: 'resources.svg', id: deck['Conv2Type'], layout: :convert_type_to, force_id: true
+  text str: deck['ConvNum'], layout: :convert_text_from
+  text str: deck['Conv2Num'], layout: :convert_text_to
+
+  #png file: 'tgc-proof-overlay.png', alpha: 0.5
+  #save range: id['Portable Flea Market'], format: :png
   
   save format: :png
 end
