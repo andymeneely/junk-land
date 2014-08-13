@@ -67,7 +67,7 @@ bonus:
 bonus_text:
   width: 60
   height: 60
-  y: 877
+  y: 876
   valign: !ruby/symbol middle
   align: !ruby/symbol center
   font: 'Action Man bold 45'

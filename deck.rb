@@ -1,28 +1,24 @@
 require 'squib'
 require 'pp'
+require_relative 'squib_helpers.rb'
 
-deck = Squib.xlsx file: 'deck.xlsx', replace_spaces: '_'
+deck = Squib.xlsx file: 'deck.xlsx'
 junk = deck['Type'].select {|t| %w{item blueprint victory}.include? t }
 img = 'color'
 
-# Replace spaces with underscores to be more programmer-friendly
-%w(Bonus1Type Bonus2Type).each do |bonus|
-  deck[bonus].each_with_index do |type|
-    type.gsub!(' ', '_') unless type.nil?
-  end
-end
+# Replace spaces with programmer-friendly underscores
+%w(Bonus1Type Bonus2Type).each { |b| underscorify(deck[b]) }
 
-#TODO put this into excel
 bgimage = {
   'item' => "#{img}/item-background.png",
   'blueprint' => "#{img}/blueprint-background.png",
   'victory' => "#{img}/blueprint-background.png"
 }
 
-# Make a hash of map to the range id
+# Make a hash of name to the range id
 id = {} ; deck['Name'].each_with_index{ |name,i| id[name] = i}
 
-# Items and Blueprints decks
+# Junk = Items and Blueprints decks
 Squib::Deck.new(cards: junk.size, config: 'config.yml', layout: 'junk.yml') do 
 
   png file: junk.collect {|j| bgimage[j] }
@@ -42,8 +38,8 @@ Squib::Deck.new(cards: junk.size, config: 'config.yml', layout: 'junk.yml') do
   text str: deck['Bonus2Num'], layout: :bonus2_text, color: :black
 
   png file: 'tgc-proof-overlay.png', alpha: 0.5
-  save range: id['Steampunk Zeppelin'], 
-       format: :png
+  save range: id['Saggy Park Bench'], 
+      format: :png
   
   # save format: :png
 end
