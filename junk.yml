@@ -10,11 +10,11 @@ title:
   color: '#2d3e77'
   spacing: -25
 
-top_icons:
+top_icons: &top_icons
   y: 75
   width: 170
   height: 170
-top_icon_text:
+top_icon_text: &top_icon_text
   y: 72
   width: 60
   height: 60
@@ -24,47 +24,47 @@ top_icon_text:
   spacing: -28
 
 string:
-  extends: top_icons
+  <<: *top_icons
   x: 75
 string_text:
-  extends: top_icon_text
+  <<: *top_icon_text
   x: 75
 
 wood:
-  extends: top_icons
+  <<: *top_icons
   x: 243
 wood_text:
-  extends: top_icon_text
+  <<: *top_icon_text
   x: 243
 
 metal:
-  extends: top_icons
+  <<: *top_icons
   x: 412
 metal_text:
-  extends: top_icon_text
+  <<: *top_icon_text
   x: 412
 
 glass:
-  extends: top_icons
+  <<: *top_icons
   x: 581
 glass_text:
-  extends: top_icon_text
+  <<: *top_icon_text
   x: 581
 
 duct_tape:
-  extends: top_icons
+  <<: *top_icons
   x: 581  
   y: 250
 duct_tape_text:
-  extends: top_icon_text
+  <<: *top_icon_text
   x: 581  
   y: 247
 
-bonus: 
+bonus: &bonus
   width: 205
   height: 205
   y: 880
-bonus_text:
+bonus_text: &bonus_text
   width: 60
   height: 60
   y: 876
@@ -75,42 +75,42 @@ bonus_text:
   spacing: -28
 
 bonus1_left: 
-  extends: bonus
+  <<: *bonus
   x: 150
 bonus1_left_text:
-  extends: bonus_text
+  <<: *bonus_text
   x: 147
 
 bonus1_middle: 
-  extends: bonus
+  <<: *bonus
   x: 307
 bonus1_middle_text:
-  extends: bonus_text
+  <<: *bonus_text
   x: 304
 
 bonus2: 
-  extends: bonus
+  <<: *bonus
   x: 465
 bonus2_text:
-  extends: bonus_text
+  <<: *bonus_text
   x: 462
 
-convert:
+convert: &convert
   x: 260
   y: 880
   width: 315
   height: 315
-convert_type:
+convert_type: &convert_type
   y: 920
   width: 120
   height: 120
 convert_type_from:
-  extends: convert_type
+  <<: *convert_type
   x: 270  
 convert_type_to:
-  extends: convert_type
+  <<: *convert_type
   x: 450  
-convert_text:
+convert_text: &convert_text
   valign: !ruby/symbol middle
   align: !ruby/symbol center
   font: 'Permanent Marker 30'
@@ -119,8 +119,8 @@ convert_text:
   height: 40
   y: 922
 convert_text_from:
-  extends: convert_text
+  <<: *convert_text
   x: 272
 convert_text_to:
-  extends: convert_text
+  <<: *convert_text
   x: 452  
