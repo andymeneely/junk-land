@@ -1,4 +1,5 @@
-title:
+
+title: &title
   x: 220
   y: 765
   width: 525
@@ -7,8 +8,18 @@ title:
   align: !ruby/symbol center
   font: 'Permanent Marker 34'
   ellipsize: false
-  color: '#2d3e77'
+  color: title_color
   spacing: -25
+
+snark:
+  color: title_color
+  font: 'Arial, Sans 16'
+  align: !ruby/symbol right
+  valign: !ruby/symbol bottom
+  x: 240
+  y: 660
+  width: 500
+  height: 100
 
 top_icons: &top_icons
   y: 75

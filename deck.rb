@@ -27,6 +27,8 @@ Squib::Deck.new(cards: junk.size, config: 'config.yml', layout: 'junk.yml') do
 
   png file: junk.collect {|j| bgimage[j] }
   text str: deck['Name'], layout: :title
+  text str: deck['snark'], layout: :snark
+
 
   %w(string wood metal glass duct_tape).each do |resource|
     range = [] # only put svgs out on places with non-nil texts
@@ -47,8 +49,8 @@ Squib::Deck.new(cards: junk.size, config: 'config.yml', layout: 'junk.yml') do
   text str: deck['ConvNum'], layout: :convert_text_from
   text str: deck['Conv2Num'], layout: :convert_text_to
 
-  #png file: 'tgc-proof-overlay.png', alpha: 0.5
-  #save range: id['Portable Flea Market'], format: :png
+  # png file: 'tgc-proof-overlay.png', alpha: 0.5
+  # save range: id['Pile of Handwashed Soup Cans']+1, format: :png
   
-  save format: :png
+  save format: :png, prefix: "junk_"
 end
