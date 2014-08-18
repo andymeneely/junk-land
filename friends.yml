@@ -1,8 +1,8 @@
 
 title: &title
-  x: 220
-  y: 765
-  width: 525
+  x: 565
+  y: 75
+  width: 480
   height: 100
   valign: !ruby/symbol middle
   align: !ruby/symbol center
@@ -16,69 +16,19 @@ snark:
   font: 'Arial, Sans 16'
   align: !ruby/symbol right
   valign: !ruby/symbol bottom
-  x: 240
-  y: 660
+  x: 565
+  y: 75
   width: 500
   height: 100
-
-top_icons: &top_icons
-  y: 75
-  width: 170
-  height: 170
-top_icon_text: &top_icon_text
-  y: 72
-  width: 60
-  height: 60
-  align: !ruby/symbol center
-  valign: !ruby/symbol middle
-  font: 'Action Man bold 45'
-  spacing: -28
-
-string:
-  <<: *top_icons
-  x: 75
-string_text:
-  <<: *top_icon_text
-  x: 75
-
-wood:
-  <<: *top_icons
-  x: 243
-wood_text:
-  <<: *top_icon_text
-  x: 243
-
-metal:
-  <<: *top_icons
-  x: 412
-metal_text:
-  <<: *top_icon_text
-  x: 412
-
-glass:
-  <<: *top_icons
-  x: 581
-glass_text:
-  <<: *top_icon_text
-  x: 581
-
-duct_tape:
-  <<: *top_icons
-  x: 581  
-  y: 250
-duct_tape_text:
-  <<: *top_icon_text
-  x: 581  
-  y: 247
 
 bonus: &bonus
   width: 205
   height: 205
-  y: 880
+  y: 540
 bonus_text: &bonus_text
   width: 60
   height: 60
-  y: 876
+  y: 536
   color: black
   valign: !ruby/symbol middle
   align: !ruby/symbol center
@@ -87,39 +37,39 @@ bonus_text: &bonus_text
 
 bonus1_left: 
   <<: *bonus
-  x: 150
+  x: 250
 bonus1_left_text:
   <<: *bonus_text
-  x: 147
+  x: 247
 
 bonus1_middle: 
   <<: *bonus
-  x: 307
+  x: 497
 bonus1_middle_text:
   <<: *bonus_text
-  x: 304
+  x: 493
 
 bonus2: 
   <<: *bonus
-  x: 465
+  x: 800
 bonus2_text:
   <<: *bonus_text
-  x: 462
+  x: 796
 
 convert_base:
-  x: 260
-  y: 880
+  x: 442
+  y: 540
   width: 315
   height: 315
 
 convert: &convert
-  y: 920
+  x: 452
+  y: 580
   width: 120
   height: 120
-  x: 270  
 convert2:
   <<: *convert
-  x: 450  
+  x: 635
 
 convert_text: &convert_text
   valign: !ruby/symbol middle
@@ -128,8 +78,8 @@ convert_text: &convert_text
   spacing: -28
   width: 40
   height: 40
-  y: 922
-  x: 272
+  x: 454
+  y: 582
 convert2_text:
   <<: *convert_text
-  x: 452
+  x: 637

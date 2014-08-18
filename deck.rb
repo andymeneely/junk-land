@@ -2,55 +2,62 @@ require 'squib'
 require 'pp'
 require_relative 'squib_helpers.rb'
 
-deck = Squib.xlsx file: 'deck.xlsx'
-junk = deck['Type'].select {|t| %w{item blueprint victory}.include? t }
 img = 'color'
 
-# Replace spaces with programmer-friendly underscores
-%w(Bonus1Type Bonus2Type ConvType Conv2Type).each { |b| underscorify(deck[b]) }
-
-#Layout Bonus1 to the left if there's two bonuses, middle otherwise
-bonus1_layout = deck['Bonus2Type'].collect {|t| t.to_s.empty? ? :bonus1_middle : :bonus1_left }
-bonus1_layout_text = bonus1_layout.collect {|l| "#{l}_text"}
-
-bgimage = {
-  'item' => "#{img}/item-background.png",
-  'blueprint' => "#{img}/blueprint-background.png",
-  'victory' => "#{img}/blueprint-background.png"
+dims = {
+  'junk' => {width: 825, height: 1125, rotate: false},
+  'friends' => {width: 1125, height: 825, rotate: false},
 }
 
-# Make a hash of name to the range id
-id = {} ; deck['Name'].each_with_index{ |name,i| id[name] = i}
+# %w(junk friends).each_with_index do |type, i|
+type,i='friends', 1
+  deck = Squib.xlsx file: 'deck.xlsx', sheet: i
 
-# Junk = Items and Blueprints decks
-Squib::Deck.new(cards: junk.size, config: 'config.yml', layout: 'junk.yml') do 
+  # Convert spaces to programmer-friendly underscores for "type" columns
+  deck.keys.each { |k| underscorify(deck[k]) if k.downcase.end_with? 'type' }
 
-  png file: junk.collect {|j| bgimage[j] }
-  text str: deck['Name'], layout: :title
-  text str: deck['snark'], layout: :snark
+  # Make a hash of name to the range id
+  id = {} ; deck['Name'].each_with_index{ |name,i| id[name] = i}
 
+  Squib::Deck.new(cards: deck['Name'].size, layout: "#{type}.yml",
+                  width: dims[type][:width], height: dims[type][:height]) do 
 
-  %w(string wood metal glass duct_tape).each do |resource|
-    range = [] # only put svgs out on places with non-nil texts
-    deck[resource].each_with_index { |n, i| range << i unless n.nil? }
-    svg range: range, file: 'resources.svg', id: resource, layout: resource 
-    text range: range, str: deck[resource], layout: "#{resource}_text"
-  end
+    png file: deck['Type'].collect {|t| "#{img}/#{t}-background.png" }
+    text str: deck['Name'], layout: :title
+    text str: deck['snark'], layout: :snark
 
-  svg file: 'junk-bonuses.svg', id: deck['Bonus1Type'], layout: bonus1_layout, force_id: true
-  text str: deck['Bonus1Num'], layout: bonus1_layout_text
+    # Each resource gets its own style
+    %w(string wood metal glass duct_tape).each do |resource|
+      unless deck[resource].nil?
+        range = [] # only put svgs out on places with non-nil texts
+        deck[resource].each_with_index { |n, i| range << i unless n.nil? }
+        svg range: range, file: 'resources.svg', id: resource, layout: resource 
+        text range: range, str: deck[resource], layout: "#{resource}_text"
+      end
+    end
 
-  svg file: 'junk-bonuses.svg', id: deck['Bonus2Type'], layout: :bonus2, force_id: true
-  text str: deck['Bonus2Num'], layout: :bonus2_text
+    # Layout bonus1 to the left if there's two bonuses, middle otherwise
+    deck["bonus1_layout"] = deck['bonus2_type'].collect do |t| 
+      t.to_s.empty? ? :bonus1_middle : :bonus1_left
+    end
+    deck["bonus1_text_layout"] = deck["bonus1_layout"].collect {|l| "#{l}_text"}
 
-  svg file: 'junk-bonuses.svg', id: deck['Convert'], layout: :convert, force_id: true
-  svg file: 'resources.svg', id: deck['ConvType'], layout: :convert_type_from, force_id: true
-  svg file: 'resources.svg', id: deck['Conv2Type'], layout: :convert_type_to, force_id: true
-  text str: deck['ConvNum'], layout: :convert_text_from
-  text str: deck['Conv2Num'], layout: :convert_text_to
+    # Add the convert bonus base where appropriate
+    svg file: 'junk-bonuses.svg', 
+        id: deck['convert'], force_id: true,
+        layout: :convert_base
 
-  # png file: 'tgc-proof-overlay.png', alpha: 0.5
-  # save range: id['Pile of Handwashed Soup Cans']+1, format: :png
-  
-  save format: :png, prefix: "junk_"
-end
+    # Bonuses are all different, but share a layout style
+    %w(bonus1 bonus2 convert convert2).each do |bonus|
+      unless deck["#{bonus}_type"].nil?
+        svg file: (bonus.start_with?('convert') ? 'resources.svg': 'junk-bonuses.svg'), 
+            id: deck["#{bonus}_type"], force_id: true,
+            layout: deck["#{bonus}_layout"] || bonus
+        text str: deck["#{bonus}_num"], 
+             layout: deck["#{bonus}_text_layout"] || "#{bonus}_text"
+      end             
+    end
+
+    save_png format: :png, prefix: "#{type}_", rotate: dims[type][:rotate]
+   end
+# end
