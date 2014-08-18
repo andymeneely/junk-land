@@ -16,10 +16,31 @@ snark:
   font: 'Arial, Sans 16'
   align: !ruby/symbol right
   valign: !ruby/symbol bottom
-  x: 565
-  y: 75
+  x: 550
+  y: 650
   width: 500
   height: 100
+
+friendreq1: &friendreq1
+  x: 75
+  y: 75
+  width: 170
+  height: 170
+friendreq1_text: &friendreq1_text
+  x: 73
+  y: 72
+  width: 60
+  height: 60
+  align: !ruby/symbol center
+  valign: !ruby/symbol middle
+  font: 'Action Man bold 45'
+  spacing: -28
+friendreq2: 
+  <<: *friendreq1
+  x: 263
+friendreq2_text: 
+  <<: *friendreq1_text
+  x: 261
 
 bonus: &bonus
   width: 205
@@ -34,27 +55,6 @@ bonus_text: &bonus_text
   align: !ruby/symbol center
   font: 'Action Man bold 45'
   spacing: -28
-
-bonus1_left: 
-  <<: *bonus
-  x: 250
-bonus1_left_text:
-  <<: *bonus_text
-  x: 247
-
-bonus1_middle: 
-  <<: *bonus
-  x: 497
-bonus1_middle_text:
-  <<: *bonus_text
-  x: 493
-
-bonus2: 
-  <<: *bonus
-  x: 800
-bonus2_text:
-  <<: *bonus_text
-  x: 796
 
 convert_base:
   x: 442
@@ -83,3 +83,25 @@ convert_text: &convert_text
 convert2_text:
   <<: *convert_text
   x: 637
+
+bonus1_left: 
+  <<: *bonus
+  x: 250
+bonus1_left_text:
+  <<: *bonus_text
+  x: 247
+
+bonus1_middle: 
+  <<: *bonus
+  x: 497
+bonus1_middle_text:
+  <<: *bonus_text
+  x: 493
+
+bonus2: 
+  <<: *bonus
+  x: 800
+bonus2_text:
+  <<: *bonus_text
+  x: 796
+

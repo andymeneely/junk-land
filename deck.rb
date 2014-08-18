@@ -48,9 +48,9 @@ type,i='friends', 1
         layout: :convert_base
 
     # Bonuses are all different, but share a layout style
-    %w(bonus1 bonus2 convert convert2).each do |bonus|
+    %w(bonus1 bonus2 convert convert2 friendreq1 friendreq2).each do |bonus|
       unless deck["#{bonus}_type"].nil?
-        svg file: (bonus.start_with?('convert') ? 'resources.svg': 'junk-bonuses.svg'), 
+        svg file: (bonus.start_with?('bonus') ? 'junk-bonuses.svg' : 'resources.svg'), 
             id: deck["#{bonus}_type"], force_id: true,
             layout: deck["#{bonus}_layout"] || bonus
         text str: deck["#{bonus}_num"], 
@@ -58,6 +58,8 @@ type,i='friends', 1
       end             
     end
 
-    save_png format: :png, prefix: "#{type}_", rotate: dims[type][:rotate]
+    png file: 'tgc-proof-overlay-landscape.png', alpha: 0.5
+
+    save_png range: id['Respected Duck Sergeant'], format: :png, prefix: "#{type}_", rotate: dims[type][:rotate]
    end
 # end
