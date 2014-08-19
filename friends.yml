@@ -1,24 +1,24 @@
 
 title: &title
-  x: 565
-  y: 75
-  width: 480
+  x: 555
+  y: 110
+  width: 495
   height: 100
   valign: !ruby/symbol middle
   align: !ruby/symbol center
-  font: 'Permanent Marker 34'
+  font: 'Permanent Marker 38'
   ellipsize: false
   color: title_color
   spacing: -25
 
 snark:
-  color: title_color
-  font: 'Arial, Sans 16'
+  color: black
+  font: 'Arial, Sans 18'
   align: !ruby/symbol right
   valign: !ruby/symbol bottom
   x: 550
   y: 650
-  width: 500
+  width: 490
   height: 100
 
 friendreq1: &friendreq1
@@ -45,31 +45,52 @@ friendreq2_text:
 bonus: &bonus
   width: 205
   height: 205
-  y: 540
+  x: 800
 bonus_text: &bonus_text
   width: 60
   height: 60
-  y: 536
+  x: 800
   color: black
   valign: !ruby/symbol middle
   align: !ruby/symbol center
   font: 'Action Man bold 45'
   spacing: -28
 
+bonus1_left: 
+  <<: *bonus
+  y: 265
+bonus1_left_text:
+  <<: *bonus_text
+  y: 262
+
+bonus1_middle: 
+  <<: *bonus
+  y: 397
+bonus1_middle_text:
+  <<: *bonus_text
+  y: 393
+
+bonus2: 
+  <<: *bonus
+  y: 520
+bonus2_text:
+  <<: *bonus_text
+  y: 516
+
 convert_base:
-  x: 442
-  y: 540
+  x: 735
+  y: 390
   width: 315
   height: 315
 
 convert: &convert
-  x: 452
-  y: 580
+  x: 745
+  y: 420
   width: 120
   height: 120
 convert2:
   <<: *convert
-  x: 635
+  x: 920
 
 convert_text: &convert_text
   valign: !ruby/symbol middle
@@ -78,30 +99,8 @@ convert_text: &convert_text
   spacing: -28
   width: 40
   height: 40
-  x: 454
-  y: 582
+  x: 747
+  y: 421
 convert2_text:
   <<: *convert_text
-  x: 637
-
-bonus1_left: 
-  <<: *bonus
-  x: 250
-bonus1_left_text:
-  <<: *bonus_text
-  x: 247
-
-bonus1_middle: 
-  <<: *bonus
-  x: 497
-bonus1_middle_text:
-  <<: *bonus_text
-  x: 493
-
-bonus2: 
-  <<: *bonus
-  x: 800
-bonus2_text:
-  <<: *bonus_text
-  x: 796
-
+  x: 923

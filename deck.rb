@@ -9,8 +9,8 @@ dims = {
   'friends' => {width: 1125, height: 825, rotate: false},
 }
 
-%w(junk friends).each_with_index do |type, i|
-# type,i='friends', 1
+# %w(junk friends).each_with_index do |type, i|
+type,i='junk', 0
   deck = Squib.xlsx file: 'deck.xlsx', sheet: i
 
   # Convert spaces to programmer-friendly underscores for "type" columns
@@ -58,10 +58,11 @@ dims = {
       end             
     end
 
-    png file: 'tgc-proof-overlay-landscape.png', alpha: 0.5
+    # png file: 'tgc-proof-overlay-landscape.png', alpha: 0.5
+    # png file: 'tgc-proof-overlay.png', alpha: 0.5
 
     save_json cards: @cards.size, deck: deck, file: "#{type}.json"
 
     save_png format: :png, prefix: "#{type}_", rotate: dims[type][:rotate]
    end
-end
+# end

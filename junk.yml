@@ -1,7 +1,7 @@
 
 title: &title
   x: 220
-  y: 765
+  y: 705
   width: 525
   height: 100
   valign: !ruby/symbol middle
@@ -12,12 +12,11 @@ title: &title
   spacing: -25
 
 snark:
-  color: title_color
+  color: black
   font: 'Arial, Sans 16'
   align: !ruby/symbol right
-  valign: !ruby/symbol bottom
   x: 240
-  y: 660
+  y: 820
   width: 500
   height: 100
 
