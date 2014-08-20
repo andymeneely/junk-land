@@ -9,8 +9,8 @@ dims = {
   'friends' => {width: 1125, height: 825, rotate: false},
 }
 
-# %w(junk friends).each_with_index do |type, i|
-type,i='junk', 0
+%w(junk friends).each_with_index do |type, i|
+# type,i='junk', 0
   deck = Squib.xlsx file: 'deck.xlsx', sheet: i
 
   # Convert spaces to programmer-friendly underscores for "type" columns
@@ -43,15 +43,14 @@ type,i='junk', 0
     deck["bonus1_text_layout"] = deck["bonus1_layout"].collect {|l| "#{l}_text"}
 
     # Add the convert bonus base where appropriate
-    svg file: 'junk-bonuses.svg', 
-        id: deck['convert'], force_id: true,
+    svg file: 'junk-bonuses.svg', id: deck['convert'], force_id: true, 
         layout: :convert_base
 
     # Bonuses are all different, but share a layout style
     %w(bonus1 bonus2 convert convert2 friendreq1 friendreq2).each do |bonus|
       unless deck["#{bonus}_type"].nil?
         svg file: (bonus.start_with?('bonus') ? 'junk-bonuses.svg' : 'resources.svg'), 
-            id: deck["#{bonus}_type"], force_id: true,
+            id: deck["#{bonus}_type"], force_id: true, 
             layout: deck["#{bonus}_layout"] || bonus
         text str: deck["#{bonus}_num"], 
              layout: deck["#{bonus}_text_layout"] || "#{bonus}_text"
@@ -65,4 +64,4 @@ type,i='junk', 0
 
     save_png format: :png, prefix: "#{type}_", rotate: dims[type][:rotate]
    end
-# end
+end
