@@ -150,7 +150,7 @@
     "Type": "friend",
     "Name": "Chet the Friendly Glassblower",
     "Players": "1+",
-    "snark": "\"Who's got two lungs and a trade skill?? This guy.\"",
+    "snark": "\"Who's got two lungs and a trade skill??\nThis guy.\"",
     "friendreq1_num": "3",
     "friendreq1_type": "#string",
     "friendreq2_num": null,
