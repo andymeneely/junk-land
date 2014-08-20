@@ -49,7 +49,7 @@ dims = {
     # Bonuses are all different, but share a layout style
     %w(bonus1 bonus2 convert convert2 friendreq1 friendreq2).each do |bonus|
       unless deck["#{bonus}_type"].nil?
-        svg file: (bonus.start_with?('bonus') ? 'junk-bonuses.svg' : 'resources.svg'), 
+        svg file: (bonus.start_with?('bonus') ? "#{type}-bonuses.svg" : 'resources.svg'),
             id: deck["#{bonus}_type"], force_id: true, 
             layout: deck["#{bonus}_layout"] || bonus
         text str: deck["#{bonus}_num"], 
