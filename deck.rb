@@ -43,7 +43,7 @@ dims = {
     deck["bonus1_text_layout"] = deck["bonus1_layout"].collect {|l| "#{l}_text"}
 
     # Add the convert bonus base where appropriate
-    svg file: 'junk-bonuses.svg', id: deck['convert'], force_id: true, 
+    svg file: "#{type}-bonuses.svg", id: deck['convert'], force_id: true, 
         layout: :convert_base
 
     # Bonuses are all different, but share a layout style

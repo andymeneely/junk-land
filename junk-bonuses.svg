@@ -25,8 +25,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="7.9195959"
-     inkscape:cx="50.644864"
-     inkscape:cy="65.434021"
+     inkscape:cx="22.648758"
+     inkscape:cy="54.462072"
      inkscape:document-units="px"
      inkscape:current-layer="layer12"
      showgrid="false"
@@ -34,11 +34,18 @@
      inkscape:snap-page="true"
      inkscape:snap-bbox="true"
      inkscape:snap-nodes="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="878"
-     inkscape:window-x="-8"
+     inkscape:window-width="1680"
+     inkscape:window-height="988"
+     inkscape:window-x="1432"
      inkscape:window-y="109"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       orientation="0,1"
+       position="79.928321,72.352176"
+       id="guide3281" />
+  </sodipodi:namedview>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -56,7 +63,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-962.35975)"
-     style="display:none">
+     style="display:inline">
     <g
        transform="matrix(0.26122515,0,0,0.26122515,182.85549,954.23883)"
        id="capacity"
@@ -212,7 +219,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="initiative"
-     style="display:none">
+     style="display:inline">
     <g
        id="initiative"
        inkscape:label="#g3311">
@@ -375,7 +382,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="remove"
-     style="display:none">
+     style="display:inline">
     <g
        style="display:inline"
        id="remove"
@@ -648,7 +655,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="take one"
-     style="display:none">
+     style="display:inline">
     <g
        id="take_one"
        inkscape:label="#g5230">
@@ -830,7 +837,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="take duct tape"
-     style="display:none">
+     style="display:inline">
     <g
        transform="translate(24.770807,-118.0627)"
        style="display:inline"
@@ -1025,7 +1032,7 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="take glass"
-     style="display:none">
+     style="display:inline">
     <g
        style="display:inline"
        id="take_glass"
@@ -1230,7 +1237,7 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="take metal"
-     style="display:none">
+     style="display:inline">
     <g
        transform="translate(132.85713,-195.59191)"
        style="display:inline"
@@ -1416,7 +1423,7 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="take wood"
-     style="display:none">
+     style="display:inline">
     <g
        style="display:inline"
        id="take_wood"
@@ -1653,7 +1660,7 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="take string"
-     style="display:none">
+     style="display:inline">
     <g
        transform="translate(130.71428,-28.449055)"
        style="display:inline"
@@ -1885,7 +1892,7 @@
      inkscape:groupmode="layer"
      id="layer11"
      inkscape:label="take wood or metal"
-     style="display:none">
+     style="display:inline">
     <g
        id="take_wood_or_metal"
        inkscape:label="#g4317">
@@ -2169,7 +2176,7 @@
      inkscape:groupmode="layer"
      id="layer10"
      inkscape:label="victory"
-     style="display:none">
+     style="display:inline">
     <g
        id="victory"
        inkscape:label="#g7896">
@@ -2261,15 +2268,18 @@
      inkscape:label="convert"
      style="display:inline">
     <g
+       id="g3283"
+       transform="matrix(1.3933754,0,0,1.3933754,-17.661542,0.23961919)" />
+    <g
        id="convert"
-       inkscape:label="#g3316">
+       inkscape:label="#g3282">
       <rect
          inkscape:export-ydpi="55.878246"
          inkscape:export-xdpi="55.878246"
          inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\convert anything to duct tape.png"
          ry="5.4000707"
          y="14.715055"
-         x="-2.8857892e-006"
+         x="2.7930947e-014"
          height="42.785172"
          width="90"
          id="rect4513"
@@ -2282,85 +2292,59 @@
          id="rect4519"
          width="90"
          height="46.01091"
-         x="-2.8857892e-006"
+         x="2.7930947e-014"
          y="8.191576"
          ry="5.8072023" />
-      <g
-         id="g4532"
-         transform="matrix(0.18787575,0,0,0.20533208,-0.17120787,-99.36517)"
-         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\convert anything to duct tape.png"
-         inkscape:export-xdpi="55.878246"
-         inkscape:export-ydpi="55.878246">
-        <path
-           inkscape:connector-curvature="0"
-           id="path4535"
-           d="m 211,662.11218 73.76815,0"
-           style="fill:none;stroke:#ffffff;stroke-width:10.15157986;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-        <g
-           id="g4537">
-          <path
-             inkscape:connector-curvature="0"
-             id="path4539"
-             d="m 257.81135,635.03945 25.64545,25.64546"
-             style="fill:none;stroke:#ffffff;stroke-width:10.15157986;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-             sodipodi:nodetypes="cc" />
-          <path
-             sodipodi:nodetypes="cc"
-             style="fill:none;stroke:#ffffff;stroke-width:10.15157986;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-             d="m 257.81135,689.1849 25.64546,-25.64545"
-             id="path4543"
-             inkscape:connector-curvature="0" />
-        </g>
-      </g>
       <path
-         inkscape:export-ydpi="55.878246"
-         inkscape:export-xdpi="55.878246"
-         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\convert anything to duct tape.png"
-         transform="matrix(0.08080115,0,0,0.08080115,27.691124,-19.338333)"
-         d="m 275.26657,329.59805 a 61.114227,61.114227 0 1 1 -122.22845,0 61.114227,61.114227 0 1 1 122.22845,0 z"
-         sodipodi:ry="61.114227"
-         sodipodi:rx="61.114227"
-         sodipodi:cy="329.59805"
-         sodipodi:cx="214.15234"
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#5500d4;stroke-width:9.80000019;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
          id="path4524-6"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#5500d4;stroke-width:9.80000019;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-         sodipodi:type="arc" />
-      <path
-         style="fill:#ffffff;fill-opacity:1;stroke:#5500d4;stroke-width:0.67799997;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m 47.042548,0.21149069 c -2.395261,-0.32455867 -7.367249,1.04080661 -7.042284,6.98809541 0.449615,-3.3744234 3.605557,-4.65757 5.552773,-4.3768078 1.947216,0.2807642 2.823418,1.1480704 3.03392,2.2770025 L 47.533746,4.9854583 49.528813,8.7698409 52.340658,5.5456565 51.425456,5.430579 C 52.452564,3.183523 49.43781,0.53604937 47.042548,0.21149069 z"
-         id="path4218"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="zczcccccz" />
-      <text
-         xml:space="preserve"
-         style="font-size:4.46933651px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Action Man Shaded;-inkscape-font-specification:Action Man Shaded"
-         x="42.846889"
-         y="9.6222639"
-         id="text4526-0"
-         sodipodi:linespacing="125%"
+         sodipodi:cx="214.15234"
+         sodipodi:cy="329.59805"
+         sodipodi:rx="61.114227"
+         sodipodi:ry="61.114227"
+         d="m 275.26657,329.59805 a 61.114227,61.114227 0 1 1 -122.22845,0 61.114227,61.114227 0 1 1 122.22845,0 z"
+         transform="matrix(0.11258633,0,0,0.11258633,20.922592,-26.705938)"
          inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\convert anything to duct tape.png"
          inkscape:export-xdpi="55.878246"
-         inkscape:export-ydpi="55.878246"><tspan
-           sodipodi:role="line"
-           id="tspan4528-6"
-           x="42.846889"
-           y="9.6222639"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:Action Man;-inkscape-font-specification:Action Man"><tspan
-   style="font-size:7.8228898px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:Action Man;-inkscape-font-specification:Action Man"
-   id="tspan4530-6">1</tspan>x</tspan></text>
+         inkscape:export-ydpi="55.878246" />
       <path
          sodipodi:nodetypes="zczcccccz"
          inkscape:connector-curvature="0"
-         id="path4186"
-         d="m 42.752305,14.3355 c 2.395262,0.324559 7.367249,-1.040806 7.042284,-6.988095 -0.449615,3.374423 -3.605557,4.65757 -5.552773,4.376808 -1.947216,-0.280764 -2.823418,-1.148071 -3.03392,-2.2770027 l 1.053212,0.1143225 -1.995067,-3.7843823 -2.811846,3.2241842 0.915202,0.1150774 c -1.027108,2.2470559 1.987647,4.8945299 4.382908,5.2190879 z"
-         style="fill:#ffffff;fill-opacity:1;stroke:#5500d4;stroke-width:0.67799997;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+         id="path4218"
+         d="M 47.88639,0.53430511 C 44.548892,0.08207305 37.621047,1.9845394 38.073845,10.271345 c 0.626482,-4.7018382 5.023894,-6.4897431 7.737097,-6.098536 2.713203,0.39121 3.934081,1.5996931 4.22739,3.1727193 L 48.570813,7.1862341 51.350691,12.4593 55.268646,7.9668005 53.993426,7.8064544 C 55.424573,4.6754618 51.223889,0.9865372 47.88639,0.53430511 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:#5500d4;stroke-width:0.94470847;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+      <text
+         inkscape:export-ydpi="55.878246"
+         inkscape:export-xdpi="55.878246"
+         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Junk Land\decks\color\convert anything to duct tape.png"
+         sodipodi:linespacing="125%"
+         id="text4526-0"
+         y="13.647045"
+         x="42.040264"
+         style="font-size:6.22746372px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Action Man Shaded;-inkscape-font-specification:Action Man Shaded"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:Action Man;-inkscape-font-specification:Action Man"
+           y="13.647045"
+           x="42.040264"
+           id="tspan4528-6"
+           sodipodi:role="line"><tspan
+   id="tspan4530-6"
+   style="font-size:10.90022182px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:Action Man;-inkscape-font-specification:Action Man">1</tspan>x</tspan></text>
       <path
-         sodipodi:nodetypes="ccccccc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#5500d4;stroke-width:0.94470847;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+         d="m 41.908471,20.214352 c 3.337499,0.452233 10.265344,-1.450233 9.812545,-9.737039 -0.626482,4.701838 -5.023894,6.489743 -7.737097,6.098536 C 41.270716,16.18464 40.049838,14.976155 39.75653,13.40313 l 1.467519,0.159294 -2.779877,-5.2730654 -3.917957,4.4924994 1.27522,0.160346 c -1.431147,3.130992 2.769538,6.819917 6.107036,7.272148 z"
+         id="path4186"
          inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zczcccccz" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#5500d4;stroke-width:0.94499999;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+         d="m 45.810942,4.172809 c 2.713203,0.39121 3.934081,1.5996931 4.22739,3.1727193 L 48.570813,7.1862341 51.350691,12.4593 55.268646,7.9668005 53.993426,7.8064544"
          id="path4220"
-         d="m 45.553037,2.8227783 c 1.947216,0.2807642 2.823418,1.1480704 3.03392,2.2770025 L 47.533746,4.9854583 49.528813,8.7698409 52.340658,5.5456565 51.425456,5.430579 C 52.452564,3.183523 49.43781,0.53604937 47.042548,0.21149069"
-         style="fill:#ffffff;fill-opacity:1;stroke:#5500d4;stroke-width:0.67799997;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
       <g
+         transform="translate(2.8857892e-6,0)"
          id="g4369">
         <rect
            style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#5500d4;stroke-width:0.71108568;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
@@ -2398,6 +2382,27 @@
            width="9.3758116"
            id="rect4139-4"
            style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#5500d4;stroke-width:0.70376247;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      </g>
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:1.99387264;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 39.470575,36.587701 13.859247,0"
+         id="path4535"
+         inkscape:connector-curvature="0" />
+      <g
+         transform="matrix(0.18787575,0,0,0.20533208,-0.17120787,-99.36517)"
+         id="g4537">
+        <path
+           sodipodi:nodetypes="cc"
+           style="fill:none;stroke:#ffffff;stroke-width:10.15157986;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 257.81135,635.03945 25.64545,25.64546"
+           id="path4539"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4543"
+           d="m 257.81135,689.1849 25.64546,-25.64545"
+           style="fill:none;stroke:#ffffff;stroke-width:10.15157986;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           sodipodi:nodetypes="cc" />
       </g>
     </g>
   </g>

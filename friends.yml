@@ -85,7 +85,7 @@ convert_base:
 
 convert: &convert
   x: 745
-  y: 420
+  y: 430
   width: 120
   height: 120
 convert2:
@@ -100,7 +100,7 @@ convert_text: &convert_text
   width: 40
   height: 40
   x: 747
-  y: 421
+  y: 431
 convert2_text:
   <<: *convert_text
   x: 923
