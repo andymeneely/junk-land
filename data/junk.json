@@ -155,28 +155,6 @@
   },
   "7": {
     "Type": "item",
-    "Name": "Colorful Circus Tent",
-    "Players": "1+",
-    "snark": "\"A good find AND a wise business decision!\"",
-    "string": "2",
-    "wood": "2",
-    "metal": null,
-    "glass": null,
-    "duct_tape": null,
-    "bonus1_num": "1",
-    "bonus1_type": "#take_one",
-    "bonus2_num": null,
-    "bonus2_type": null,
-    "convert": null,
-    "convert_num": null,
-    "convert_type": null,
-    "convert2_num": null,
-    "convert2_type": null,
-    "bonus1_layout": "bonus1_middle",
-    "bonus1_text_layout": "bonus1_middle_text"
-  },
-  "8": {
-    "Type": "item",
     "Name": "Nice Sweater",
     "Players": "1+",
     "snark": "\"Who's gonna mess with a guy in this?\"",
@@ -197,7 +175,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "9": {
+  "8": {
     "Type": "item",
     "Name": "Biker Jacket",
     "Players": "1+",
@@ -219,7 +197,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "10": {
+  "9": {
     "Type": "item",
     "Name": "Ancient Tapestry",
     "Players": "1+",
@@ -241,7 +219,7 @@
     "bonus1_layout": "bonus1_left",
     "bonus1_text_layout": "bonus1_left_text"
   },
-  "11": {
+  "10": {
     "Type": "item",
     "Name": "Busted Screen Door",
     "Players": "1+",
@@ -263,7 +241,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "12": {
+  "11": {
     "Type": "item",
     "Name": "Novelty Glass Keychain",
     "Players": "1+",
@@ -285,7 +263,7 @@
     "bonus1_layout": "bonus1_left",
     "bonus1_text_layout": "bonus1_left_text"
   },
-  "13": {
+  "12": {
     "Type": "item",
     "Name": "Massive Fishtank",
     "Players": "1+",
@@ -307,7 +285,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "14": {
+  "13": {
     "Type": "item",
     "Name": "Weird Art Sculpture",
     "Players": "1+",
@@ -329,7 +307,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "15": {
+  "14": {
     "Type": "item",
     "Name": "Antique Wine Collection",
     "Players": "1+",
@@ -351,7 +329,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "16": {
+  "15": {
     "Type": "item",
     "Name": "Weathered Couch",
     "Players": "1+",
@@ -373,7 +351,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "17": {
+  "16": {
     "Type": "item",
     "Name": "Old Computer",
     "Players": "1+",
@@ -395,7 +373,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "18": {
+  "17": {
     "Type": "item",
     "Name": "Saggy Park Bench",
     "Players": "1+",
@@ -417,7 +395,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "19": {
+  "18": {
     "Type": "item",
     "Name": "Yarn-Bombed Tree",
     "Players": "1+",
@@ -439,7 +417,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "20": {
+  "19": {
     "Type": "item",
     "Name": "Box Marked \"Misc\"",
     "Players": "1+",
@@ -461,7 +439,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "21": {
+  "20": {
     "Type": "item",
     "Name": "Shack with Nice Curtains",
     "Players": "1+",
@@ -483,7 +461,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "22": {
+  "21": {
     "Type": "item",
     "Name": "Perfectly Folded Laundry",
     "Players": "1+",
@@ -505,7 +483,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "23": {
+  "22": {
     "Type": "item",
     "Name": "Famous Oil Painting",
     "Players": "1+",
@@ -527,7 +505,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "24": {
+  "23": {
     "Type": "item",
     "Name": "Sleek Digital Camera",
     "Players": "1+",
@@ -549,7 +527,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "25": {
+  "24": {
     "Type": "item",
     "Name": "Expensive Chandelier ",
     "Players": "3+",
@@ -571,7 +549,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "26": {
+  "25": {
     "Type": "item",
     "Name": "Cuddly Baby Blanket",
     "Players": "3+",
@@ -593,7 +571,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "27": {
+  "26": {
     "Type": "item",
     "Name": "Bundle of Two-by-Fours",
     "Players": "3+",
@@ -615,7 +593,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "28": {
+  "27": {
     "Type": "item",
     "Name": "Abandoned Fruit Cart",
     "Players": "3+",
@@ -637,7 +615,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "29": {
+  "28": {
     "Type": "item",
     "Name": "Classic Muscle Car",
     "Players": "3+",
@@ -659,7 +637,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "30": {
+  "29": {
     "Type": "item",
     "Name": "Vintage Coat Rack",
     "Players": "3+",
@@ -681,7 +659,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "31": {
+  "30": {
     "Type": "item",
     "Name": "Classy Clarinet",
     "Players": "3+",
@@ -703,7 +681,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "32": {
+  "31": {
     "Type": "item",
     "Name": "Fancy Desk",
     "Players": "3+",
@@ -725,7 +703,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "33": {
+  "32": {
     "Type": "item",
     "Name": "Bin Marked \"Donate\"",
     "Players": "3+",
@@ -747,7 +725,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "34": {
+  "33": {
     "Type": "blueprint",
     "Name": "Tetanus Mace",
     "Players": "1+",
@@ -769,7 +747,7 @@
     "bonus1_layout": "bonus1_left",
     "bonus1_text_layout": "bonus1_left_text"
   },
-  "35": {
+  "34": {
     "Type": "blueprint",
     "Name": "Whacking Plank",
     "Players": "1+",
@@ -791,7 +769,7 @@
     "bonus1_layout": "bonus1_left",
     "bonus1_text_layout": "bonus1_left_text"
   },
-  "36": {
+  "35": {
     "Type": "blueprint",
     "Name": "Man-Sized Trap",
     "Players": "1+",
@@ -813,7 +791,7 @@
     "bonus1_layout": "bonus1_left",
     "bonus1_text_layout": "bonus1_left_text"
   },
-  "37": {
+  "36": {
     "Type": "blueprint",
     "Name": "Laser Metal Cutter",
     "Players": "1+",
@@ -835,7 +813,7 @@
     "bonus1_layout": "bonus1_left",
     "bonus1_text_layout": "bonus1_left_text"
   },
-  "38": {
+  "37": {
     "Type": "blueprint",
     "Name": "Duct Tape Wallet",
     "Players": "1+",
@@ -857,7 +835,7 @@
     "bonus1_layout": "bonus1_left",
     "bonus1_text_layout": "bonus1_left_text"
   },
-  "39": {
+  "38": {
     "Type": "blueprint",
     "Name": "Shiny Glassery",
     "Players": "1+",
@@ -879,7 +857,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "40": {
+  "39": {
     "Type": "blueprint",
     "Name": "Junk Store",
     "Players": "1+",
@@ -901,7 +879,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "41": {
+  "40": {
     "Type": "blueprint",
     "Name": "Lumber Mill",
     "Players": "1+",
@@ -923,7 +901,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "42": {
+  "41": {
     "Type": "blueprint",
     "Name": "Can Magnet",
     "Players": "1+",
@@ -945,7 +923,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "43": {
+  "42": {
     "Type": "blueprint",
     "Name": "String Doll Familiar",
     "Players": "1+",
@@ -967,7 +945,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "44": {
+  "43": {
     "Type": "blueprint",
     "Name": "Suprisingly Spacious Bindle",
     "Players": "1+",
@@ -989,7 +967,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "45": {
+  "44": {
     "Type": "blueprint",
     "Name": "Militaristic Duffle Bag",
     "Players": "1+",
@@ -1011,7 +989,7 @@
     "bonus1_layout": "bonus1_left",
     "bonus1_text_layout": "bonus1_left_text"
   },
-  "46": {
+  "45": {
     "Type": "blueprint",
     "Name": "Steampunk Zeppelin",
     "Players": "1+",
@@ -1033,7 +1011,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "47": {
+  "46": {
     "Type": "blueprint",
     "Name": "Post-Modern Tree House",
     "Players": "1+",
@@ -1055,7 +1033,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "48": {
+  "47": {
     "Type": "blueprint",
     "Name": "Cow-Throwing Trebuchet",
     "Players": "1+",
@@ -1077,7 +1055,7 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "49": {
+  "48": {
     "Type": "blueprint",
     "Name": "Pollution-Powered Submarine",
     "Players": "1+",
@@ -1099,13 +1077,35 @@
     "bonus1_layout": "bonus1_middle",
     "bonus1_text_layout": "bonus1_middle_text"
   },
-  "50": {
+  "49": {
     "Type": "blueprint",
     "Name": "Pretentious Exhibit of Junk",
     "Players": "1+",
     "snark": "\"Victory is mine. And now everyone knows it.\"",
     "string": null,
     "wood": "10",
+    "metal": null,
+    "glass": "8",
+    "duct_tape": "6",
+    "bonus1_num": null,
+    "bonus1_type": "#victory",
+    "bonus2_num": null,
+    "bonus2_type": null,
+    "convert": null,
+    "convert_num": null,
+    "convert_type": null,
+    "convert2_num": null,
+    "convert2_type": null,
+    "bonus1_layout": "bonus1_middle",
+    "bonus1_text_layout": "bonus1_middle_text"
+  },
+  "50": {
+    "Type": "blueprint",
+    "Name": "Naturally Lit Yurt",
+    "Players": "1+",
+    "snark": "\"You can never have too many windows in a yurt!\"",
+    "string": 12.0,
+    "wood": null,
     "metal": null,
     "glass": "8",
     "duct_tape": "6",
