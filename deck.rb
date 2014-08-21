@@ -1,8 +1,5 @@
 require 'squib'
-require 'pp'
 require_relative 'squib_helpers.rb'
-
-img = 'color'
 
 dims = {
   'junk' => {width: 825, height: 1125, rotate: false},
@@ -10,23 +7,21 @@ dims = {
 }
 
 %w(junk friends).each_with_index do |type, i|
-# type,i='junk', 0
   deck = Squib.xlsx file: 'deck.xlsx', sheet: i
 
   # Convert spaces to programmer-friendly underscores for "type" columns
   deck.keys.each { |k| underscorify(deck[k]) if k.downcase.end_with? 'type' }
 
   # Make a hash of name to the range id
-  id = {} ; deck['Name'].each_with_index{ |name,i| id[name] = i}
+  at = {} ; deck['Name'].each_with_index{ |name,i| at[name] = i}
 
   Squib::Deck.new(cards: deck['Name'].size, layout: "#{type}.yml",
                   width: dims[type][:width], height: dims[type][:height]) do 
-
-    png file: deck['Type'].collect {|t| "#{img}/#{t}-background.png" }
+    png file: deck['Type'].collect {|t| "#{t}-background.png" }
     text str: deck['Name'], layout: :title
     text str: deck['snark'], layout: :snark
 
-    # Each resource gets its own style
+    # Each resource gets its own layout entry
     %w(string wood metal glass duct_tape).each do |resource|
       unless deck[resource].nil?
         range = [] # only put svgs out on places with non-nil texts
@@ -57,11 +52,7 @@ dims = {
       end             
     end
 
-    # png file: 'tgc-proof-overlay-landscape.png', alpha: 0.5
-    # png file: 'tgc-proof-overlay.png', alpha: 0.5
-
     save_json cards: @cards.size, deck: deck, file: "#{type}.json"
-
     save_png format: :png, prefix: "#{type}_", rotate: dims[type][:rotate]
    end
 end
