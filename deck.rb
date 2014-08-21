@@ -7,7 +7,7 @@ dims = {
 }
 
 %w(junk friends).each_with_index do |type, i|
-  deck = Squib.xlsx file: 'deck.xlsx', sheet: i
+  deck = Squib.xlsx file: 'data/deck.xlsx', sheet: i
 
   # Convert spaces to programmer-friendly underscores for "type" columns
   deck.keys.each { |k| underscorify(deck[k]) if k.downcase.end_with? 'type' }
@@ -52,7 +52,7 @@ dims = {
       end             
     end
 
-    save_json cards: @cards.size, deck: deck, file: "#{type}.json"
+    save_json cards: @cards.size, deck: deck, file: "data/#{type}.json"
     save_png format: :png, prefix: "#{type}_", rotate: dims[type][:rotate]
    end
 end
