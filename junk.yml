@@ -1,3 +1,9 @@
+resource_font: &resource_font
+  width: 60
+  height: 60
+  align: !ruby/symbol center
+  font: 'Action Man bold 45'
+  color: black
 
 title: &title
   x: 220
@@ -25,13 +31,8 @@ top_icons: &top_icons
   width: 170
   height: 170
 top_icon_text: &top_icon_text
-  y: 72
-  width: 60
-  height: 60
-  align: !ruby/symbol center
-  valign: !ruby/symbol middle
-  font: 'Action Man bold 45'
-  spacing: -28
+  y: 85
+  <<: *resource_font
 
 string:
   <<: *top_icons
@@ -68,21 +69,15 @@ duct_tape:
 duct_tape_text:
   <<: *top_icon_text
   x: 581  
-  y: 247
+  y: 260
 
 bonus: &bonus
   width: 205
   height: 205
   y: 880
 bonus_text: &bonus_text
-  width: 60
-  height: 60
-  y: 876
-  color: black
-  valign: !ruby/symbol middle
-  align: !ruby/symbol center
-  font: 'Action Man bold 45'
-  spacing: -28
+  y: 890
+  <<: *resource_font
 
 bonus1_left: 
   <<: *bonus
