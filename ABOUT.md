@@ -1,7 +1,7 @@
-My Awesome Game
+Junk Land
 ===============
 
-Check out my awesome game! 
+A scrappy adventurer takes on a post-apocalyptic wasteland.
 
 
 Objective
