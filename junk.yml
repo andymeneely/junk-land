@@ -1,16 +1,3 @@
-resource_font: &resource_font
-  width: 60
-  height: 60
-  align: !ruby/symbol center
-  valign: !ruby/symbol middle
-  font: 'Action Man weight=800 45'
-  color: black
-
-bonus_font: &bonus_font
-  <<: *resource_font
-  width: 90
-  height: 90
-  font_size: 60
 
 title: &title
   x: 220
@@ -33,74 +20,76 @@ snark:
   width: 500
   height: 100
 
-art: 
-  x: 90
-  y: 250
-  width: 650
-  height: 425  
-
 top_icons: &top_icons
   y: 75
   width: 170
   height: 170
 top_icon_text: &top_icon_text
-  extends: top_icons
-  <<: *resource_font
-  y: -= 2
+  y: 72
+  width: 60
+  height: 60
+  align: !ruby/symbol center
+  valign: !ruby/symbol middle
+  font: 'Action Man bold 45'
+  spacing: -28
 
-string: &string
-  extends: top_icons  
+string:
+  <<: *top_icons
   x: 75
-string_text: 
-  <<: *string
+string_text:
   <<: *top_icon_text
+  x: 75
 
-wood: &wood
+wood:
   <<: *top_icons
   x: 243
 wood_text:
-  <<: *wood
   <<: *top_icon_text
+  x: 243
 
-metal: &metal
+metal:
   <<: *top_icons
   x: 412
 metal_text:
-  <<: *metal
   <<: *top_icon_text
+  x: 412
 
-glass: &glass
+glass:
   <<: *top_icons
   x: 581
 glass_text:
-  <<: *glass
   <<: *top_icon_text
+  x: 581
 
-duct_tape: &duct_tape
+duct_tape:
   <<: *top_icons
   x: 581  
   y: 250
 duct_tape_text:
   <<: *top_icon_text
-  <<: *duct_tape
-  width: 60
-  height: 60
+  x: 581  
+  y: 247
 
 bonus: &bonus
-  width: 320
-  height: 320
-  y: 790
+  width: 205
+  height: 205
+  y: 880
 bonus_text: &bonus_text
-  extends: bonus
-  y: -=5
-  <<: *bonus_font
+  width: 60
+  height: 60
+  y: 876
+  color: black
+  valign: !ruby/symbol middle
+  align: !ruby/symbol center
+  font: 'Action Man bold 45'
+  spacing: -28
 
 bonus1_left: 
   <<: *bonus
-  x: 75
+  x: 150
 bonus1_left_text:
   <<: *bonus_text
-  x: 75
+  x: 147
 
 bonus1_middle: 
   <<: *bonus
@@ -111,10 +100,10 @@ bonus1_middle_text:
 
 bonus2: 
   <<: *bonus
-  x: 432
+  x: 465
 bonus2_text:
   <<: *bonus_text
-  x: 432
+  x: 462
 
 convert_base:
   x: 260

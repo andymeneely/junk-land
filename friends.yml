@@ -32,10 +32,11 @@ friendreq1: &friendreq1
   height: 170
 friendreq1_text: &friendreq1_text
   x: 73
-  y: 83
+  y: 72
   width: 60
   height: 60
   align: !ruby/symbol center
+  valign: !ruby/symbol middle
   font: 'Action Man bold 45'
 friendreq2: 
   <<: *friendreq1
@@ -53,6 +54,7 @@ bonus_text: &bonus_text
   height: 60
   x: 800
   color: black
+  valign: !ruby/symbol middle
   align: !ruby/symbol center
   font: 'Action Man bold 45'
 
@@ -61,21 +63,21 @@ bonus1_left:
   y: 265
 bonus1_left_text:
   <<: *bonus_text
-  y: 275
+  y: 262
 
 bonus1_middle: 
   <<: *bonus
   y: 397
 bonus1_middle_text:
   <<: *bonus_text
-  y: 407
+  y: 393
 
 bonus2: 
   <<: *bonus
   y: 520
 bonus2_text:
   <<: *bonus_text
-  y: 530
+  y: 516
 
 convert_base:
   x: 735
