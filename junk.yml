@@ -2,7 +2,8 @@ resource_font: &resource_font
   width: 60
   height: 60
   align: !ruby/symbol center
-  font: 'Action Man bold 45'
+  valign: !ruby/symbol middle
+  font: 'Action Man weight=800 45'
   color: black
 
 title: &title
@@ -31,52 +32,55 @@ top_icons: &top_icons
   width: 170
   height: 170
 top_icon_text: &top_icon_text
-  y: 85
+  extends: top_icons
   <<: *resource_font
+  y: -= 2
 
-string:
-  <<: *top_icons
+string: &string
+  extends: top_icons  
   x: 75
-string_text:
+string_text: 
+  <<: *string
   <<: *top_icon_text
-  x: 75
 
-wood:
+wood: &wood
   <<: *top_icons
   x: 243
 wood_text:
+  <<: *wood
   <<: *top_icon_text
-  x: 243
 
-metal:
+metal: &metal
   <<: *top_icons
   x: 412
 metal_text:
+  <<: *metal
   <<: *top_icon_text
-  x: 412
 
-glass:
+glass: &glass
   <<: *top_icons
   x: 581
 glass_text:
+  <<: *glass
   <<: *top_icon_text
-  x: 581
 
-duct_tape:
+duct_tape: &duct_tape
   <<: *top_icons
   x: 581  
   y: 250
 duct_tape_text:
   <<: *top_icon_text
-  x: 581  
-  y: 260
+  <<: *duct_tape
+  width: 60
+  height: 60
 
 bonus: &bonus
   width: 205
   height: 205
   y: 880
 bonus_text: &bonus_text
-  y: 890
+  extends: bonus
+  y: -=5
   <<: *resource_font
 
 bonus1_left: 
