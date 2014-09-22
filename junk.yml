@@ -6,6 +6,12 @@ resource_font: &resource_font
   font: 'Action Man weight=800 45'
   color: black
 
+bonus_font: &bonus_font
+  <<: *resource_font
+  width: 90
+  height: 90
+  font_size: 60
+
 title: &title
   x: 220
   y: 705
@@ -75,20 +81,20 @@ duct_tape_text:
   height: 60
 
 bonus: &bonus
-  width: 205
-  height: 205
-  y: 880
+  width: 320
+  height: 320
+  y: 790
 bonus_text: &bonus_text
   extends: bonus
   y: -=5
-  <<: *resource_font
+  <<: *bonus_font
 
 bonus1_left: 
   <<: *bonus
-  x: 150
+  x: 75
 bonus1_left_text:
   <<: *bonus_text
-  x: 147
+  x: 75
 
 bonus1_middle: 
   <<: *bonus
@@ -99,10 +105,10 @@ bonus1_middle_text:
 
 bonus2: 
   <<: *bonus
-  x: 465
+  x: 432
 bonus2_text:
   <<: *bonus_text
-  x: 462
+  x: 432
 
 convert_base:
   x: 260
