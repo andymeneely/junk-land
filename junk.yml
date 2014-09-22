@@ -33,6 +33,12 @@ snark:
   width: 500
   height: 100
 
+art: 
+  x: 90
+  y: 250
+  width: 650
+  height: 425  
+
 top_icons: &top_icons
   y: 75
   width: 170

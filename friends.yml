@@ -21,6 +21,10 @@ snark:
   width: 490
   height: 100
 
+art: 
+  width: 650
+  height: 425  
+
 friendreq1: &friendreq1
   x: 75
   y: 75

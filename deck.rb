@@ -21,6 +21,7 @@ dims = {
     png file: deck['Type'].collect {|t| "#{t}-background.png" }
     text str: deck['Name'], layout: :title
     text str: deck['snark'], layout: :snark
+    # svg file: 'art.svg', layout: :art
 
     # Each resource gets its own layout entry
     %w(string wood metal glass duct_tape).each do |resource|
@@ -52,6 +53,7 @@ dims = {
              layout: deck["#{bonus}_text_layout"] || "#{bonus}_text"
       end             
     end
+
     png file: 'tgc-proof-overlay.png', alpha: 0.5
     save_json cards: @cards.size, deck: deck, file: "data/#{type}.json"
     save_png format: :png, prefix: "#{type}_", rotate: dims[type][:rotate], range: at['Duct Tape Wallet']
