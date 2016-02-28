@@ -86,7 +86,7 @@ pallete = get_pallete_from_env
 
     enable_group :dev
     group :dev do
-      save_png range: 0, prefix: "#{type}_"
+      save_png range: 0..1, prefix: "#{type}_"
       save_png range: 38, prefix: "#{type}_" if type == 'junk'
     end
 
