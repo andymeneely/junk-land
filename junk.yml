@@ -4,12 +4,12 @@ title: &title
   y: 705
   width: 525
   height: 100
-  valign: !ruby/symbol middle
-  align: !ruby/symbol center
-  font: 'Permanent Marker 34'
+  valign: middle
+  align: center
+  font: 'Steel City Comic 34'
   ellipsize: false
   color: title_color
-  spacing: -25
+  # spacing: -25
 
 title_color:
   extends: title
@@ -22,7 +22,7 @@ title_bw:
 snark:
   color: black
   font: 'Arial, Sans 16'
-  align: !ruby/symbol right
+  align: right
   x: 240
   y: 820
   width: 500
@@ -36,8 +36,8 @@ top_icon_text: &top_icon_text
   y: 72
   width: 60
   height: 60
-  align: !ruby/symbol center
-  valign: !ruby/symbol middle
+  align: center
+  valign: middle
   font: 'Action Man bold 45'
   spacing: -28
 
@@ -87,8 +87,8 @@ bonus_text: &bonus_text
   height: 60
   y: 876
   color: black
-  valign: !ruby/symbol middle
-  align: !ruby/symbol center
+  valign: middle
+  align: center
   font: 'Action Man bold 45'
   spacing: -28
 
@@ -129,8 +129,8 @@ convert2:
   x: 450
 
 convert_text: &convert_text
-  valign: !ruby/symbol middle
-  align: !ruby/symbol center
+  valign: middle
+  align: center
   font: 'Permanent Marker 30'
   spacing: -28
   width: 40
@@ -140,3 +140,10 @@ convert_text: &convert_text
 convert2_text:
   <<: *convert_text
   x: 452
+
+cut:
+  x: 0.125in
+  y: 0.125in
+  radius: 0.125in
+  width: 2.5in
+  height: 3.5in

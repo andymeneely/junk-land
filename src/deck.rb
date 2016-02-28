@@ -30,6 +30,7 @@ pallete = get_pallete_from_env
 
     group :bw do
       background color: :white
+      rect layout: :cut
     end
 
     text str: data['Name'], layout: "title_#{pallete}"
@@ -69,10 +70,17 @@ pallete = get_pallete_from_env
       end
     end
 
+    save_json cards: @cards.size, deck: data, file: "data/#{type}.json"
+
+    # enable_group :proof
+    group :proof do
+      png file: 'tgc-proof-overlay.png'
+    end
+
     enable_group :full
     group :full do
-      save_json cards: @cards.size, deck: data, file: "data/#{type}.json"
       save_png format: :png, prefix: "#{type}_", rotate: dims[type][:rotate]
+      save_pdf file: "#{type}.pdf", trim: 37.5
     end
 
     enable_group :dev
@@ -91,5 +99,6 @@ pallete = get_pallete_from_env
       showcase file: "#{type}_showcase.png", range: 0..5
       hand file: "#{type}_hand.png", range: 0..5, trim_radius: 37.5
     end
+
    end
 end
