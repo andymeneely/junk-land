@@ -26,6 +26,10 @@ def get_pallete_from_env
   ENV['SQUIB_BUILD_GROUPS']['bw'].nil? ? 'color' : 'bw'
 end
 
+def version_string
+  Time.now.strftime('%Y-%M-%d')
+end
+
 def recolor_svg(file, pallete)
   svg = File.read("img-color/#{file}")
   return svg unless pallete == 'bw'

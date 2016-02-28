@@ -144,6 +144,12 @@ convert2_text:
 cut:
   x: 0.125in
   y: 0.125in
-  radius: 0.125in
   width: 2.5in
   height: 3.5in
+
+version:
+  x: 0.125in
+  y: 3.550in
+  width: 2.45in
+  align: right
+  font: Times New Roman, 10

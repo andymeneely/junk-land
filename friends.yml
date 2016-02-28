@@ -4,9 +4,9 @@ title: &title
   y: 110
   width: 495
   height: 100
-  valign: !ruby/symbol middle
-  align: !ruby/symbol center
-  font: 'Permanent Marker 38'
+  valign: middle
+  align: center
+  font: 'Steel City Comic, 38'
   ellipsize: false
   spacing: -25
 
@@ -21,8 +21,8 @@ title_bw:
 snark:
   color: black
   font: 'Arial, Sans 18'
-  align: !ruby/symbol right
-  valign: !ruby/symbol bottom
+  align: right
+  valign: bottom
   x: 550
   y: 650
   width: 490
@@ -42,8 +42,8 @@ friendreq1_text: &friendreq1_text
   y: 72
   width: 60
   height: 60
-  align: !ruby/symbol center
-  valign: !ruby/symbol middle
+  align: center
+  valign: middle
   font: 'Action Man bold 45'
 friendreq2:
   <<: *friendreq1
@@ -61,8 +61,8 @@ bonus_text: &bonus_text
   height: 60
   x: 800
   color: black
-  valign: !ruby/symbol middle
-  align: !ruby/symbol center
+  valign: middle
+  align: center
   font: 'Action Man bold 45'
 
 bonus1_left:
@@ -102,8 +102,8 @@ convert2:
   x: 920
 
 convert_text: &convert_text
-  valign: !ruby/symbol middle
-  align: !ruby/symbol center
+  valign: middle
+  align: center
   font: 'Permanent Marker 30'
   spacing: -28
   width: 40
@@ -119,3 +119,10 @@ cut:
   y: 0.125in
   width: 3.5in
   height: 2.5in
+
+version:
+  x: 0.125in
+  y: 2.550in
+  width: 3.45in
+  align: right
+  font: Times New Roman, 10
