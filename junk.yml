@@ -11,6 +11,14 @@ title: &title
   color: title_color
   spacing: -25
 
+title_color:
+  extends: title
+  color: title_color
+
+title_bw:
+  extends: title
+  color: black
+
 snark:
   color: black
   font: 'Arial, Sans 16'
@@ -63,11 +71,11 @@ glass_text:
 
 duct_tape:
   <<: *top_icons
-  x: 581  
+  x: 581
   y: 250
 duct_tape_text:
   <<: *top_icon_text
-  x: 581  
+  x: 581
   y: 247
 
 bonus: &bonus
@@ -84,21 +92,21 @@ bonus_text: &bonus_text
   font: 'Action Man bold 45'
   spacing: -28
 
-bonus1_left: 
+bonus1_left:
   <<: *bonus
   x: 150
 bonus1_left_text:
   <<: *bonus_text
   x: 147
 
-bonus1_middle: 
+bonus1_middle:
   <<: *bonus
   x: 307
 bonus1_middle_text:
   <<: *bonus_text
   x: 304
 
-bonus2: 
+bonus2:
   <<: *bonus
   x: 465
 bonus2_text:
@@ -115,10 +123,10 @@ convert: &convert
   y: 940
   width: 120
   height: 120
-  x: 270  
+  x: 270
 convert2:
   <<: *convert
-  x: 450  
+  x: 450
 
 convert_text: &convert_text
   valign: !ruby/symbol middle

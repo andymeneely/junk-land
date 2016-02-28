@@ -8,8 +8,15 @@ title: &title
   align: !ruby/symbol center
   font: 'Permanent Marker 38'
   ellipsize: false
-  color: title_color
   spacing: -25
+
+title_color:
+  extends: title
+  color: title_color
+
+title_bw:
+  extends: title
+  color: black
 
 snark:
   color: black
@@ -21,9 +28,9 @@ snark:
   width: 490
   height: 100
 
-art: 
+art:
   width: 650
-  height: 425  
+  height: 425
 
 friendreq1: &friendreq1
   x: 75
@@ -38,10 +45,10 @@ friendreq1_text: &friendreq1_text
   align: !ruby/symbol center
   valign: !ruby/symbol middle
   font: 'Action Man bold 45'
-friendreq2: 
+friendreq2:
   <<: *friendreq1
   x: 263
-friendreq2_text: 
+friendreq2_text:
   <<: *friendreq1_text
   x: 261
 
@@ -58,21 +65,21 @@ bonus_text: &bonus_text
   align: !ruby/symbol center
   font: 'Action Man bold 45'
 
-bonus1_left: 
+bonus1_left:
   <<: *bonus
   y: 265
 bonus1_left_text:
   <<: *bonus_text
   y: 262
 
-bonus1_middle: 
+bonus1_middle:
   <<: *bonus
   y: 397
 bonus1_middle_text:
   <<: *bonus_text
   y: 393
 
-bonus2: 
+bonus2:
   <<: *bonus
   y: 520
 bonus2_text:

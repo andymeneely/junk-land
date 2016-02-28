@@ -7,6 +7,8 @@ dims = {
   'friends' => { width: 1125, height: 825, rotate: false },
 }
 
+pallete = get_pallete_from_env
+
 %w(junk friends).each_with_index do |type, i|
   deck = Squib.xlsx file: 'data/deck.xlsx', sheet: i
 
@@ -16,10 +18,21 @@ dims = {
   # Make a hash of name to the range id
   at = {} ; deck['Name'].each_with_index{ |name,i| at[name] = i}
 
-  Squib::Deck.new(cards: deck['Name'].size, layout: "#{type}.yml",
+  puts "-- #{type} --"
+  Squib::Deck.new(cards: deck['Name'].size,
+                  layout: "#{type}.yml",
                   width: dims[type][:width], height: dims[type][:height]) do
-    png file: deck['Type'].collect {|t| "#{t}-background.png" }
-    text str: deck['Name'], layout: :title
+    enable_groups_from_env!
+
+    group :color, msg: 'Background artwork' do
+      png file: deck['Type'].collect {|t| "#{t}-background.png" }
+    end
+
+    group :bw do
+      background color: :white
+    end
+
+    text str: deck['Name'], layout: "title_#{pallete}"
     text str: deck['snark'], layout: :snark
 
     # Each resource gets its own layout entry
@@ -27,7 +40,8 @@ dims = {
       unless deck[resource].nil?
         range = [] # only put svgs out on places with non-nil texts
         deck[resource].each_with_index { |n, i| range << i unless n.nil? }
-        svg range: range, file: 'resources.svg', id: resource, layout: resource
+        svg range: range, id: resource, layout: resource,
+            data: recolor_svg('resources.svg', pallete)
         text range: range, str: deck[resource], layout: "#{resource}_text"
       end
     end
@@ -39,24 +53,43 @@ dims = {
     deck["bonus1_text_layout"] = deck["bonus1_layout"].collect {|l| "#{l}_text"}
 
     # Add the convert bonus base where appropriate
-    svg file: "#{type}-bonuses.svg", id: deck['convert'], force_id: true,
-        layout: :convert_base
+    svg id: deck['convert'], force_id: true, layout: :convert_base,
+        data: recolor_svg("#{type}-bonuses.svg", pallete)
 
     # Bonuses are all different, but share a layout style
     %w(bonus1 bonus2 convert convert2 friendreq1 friendreq2).each do |bonus|
       unless deck["#{bonus}_type"].nil?
-        svg file: (bonus.start_with?('bonus') ? "#{type}-bonuses.svg" : 'resources.svg'),
-            id: deck["#{bonus}_type"], force_id: true,
-            layout: deck["#{bonus}_layout"] || bonus
+        svg id: deck["#{bonus}_type"], force_id: true,
+            layout: deck["#{bonus}_layout"] || bonus,
+            data: (bonus.start_with?('bonus') ?
+                    recolor_svg("#{type}-bonuses.svg", pallete) :
+                    recolor_svg('resources.svg', pallete) )
         text str: deck["#{bonus}_num"],
              layout: deck["#{bonus}_text_layout"] || "#{bonus}_text"
       end
     end
 
-    save_json cards: @cards.size, deck: deck, file: "data/#{type}.json"
-    save_png format: :png, prefix: "#{type}_", rotate: dims[type][:rotate]
-    save_sheet prefix: "#{type}_"
-    showcase file: "#{type}_showcase.png", range: 0..5
-    hand file: "#{type}_hand.png", range: 0..5, trim_radius: 37.5
+    enable_group :full
+    group :full do
+      save_json cards: @cards.size, deck: deck, file: "data/#{type}.json"
+      save_png format: :png, prefix: "#{type}_", rotate: dims[type][:rotate]
+    end
+
+    enable_group :dev
+    group :dev do
+      save_png range: 0, prefix: "#{type}_"
+      save_png range: 38, prefix: "#{type}_" if type == 'junk'
+    end
+
+    # enable_group :sheets
+    group :sheets do
+      save_sheet prefix: "#{type}_"
+    end
+
+    # enable_group :showoff
+    group :showoff do
+      showcase file: "#{type}_showcase.png", range: 0..5
+      hand file: "#{type}_hand.png", range: 0..5, trim_radius: 37.5
+    end
    end
 end

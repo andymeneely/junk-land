@@ -1,5 +1,6 @@
 require 'squib'
 
+
 desc 'Build black-and-white only'
 task default: [:bw]
 
@@ -9,13 +10,13 @@ task all: [:bw, :color]
 desc 'Build black-and-white only'
 task :bw do
   puts "=== Building black and white deck ==="
-  ENV['pallete'] = 'bw'
+  ENV['SQUIB_BUILD_GROUPS'] = 'bw'
   load 'src/deck.rb'
 end
 
 desc 'Build the color version only'
 task :color do
   puts "=== Building color deck ==="
-  ENV['pallete'] = 'color'
+  ENV['SQUIB_BUILD_GROUPS'] = 'color'
   load 'src/deck.rb'
 end
