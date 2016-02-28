@@ -773,7 +773,7 @@
     "Type": "blueprint",
     "Name": "Man-Sized Trap",
     "Players": "1+",
-    "snark": "\"Good for catching people and tree gnomes!\"",
+    "snark": "\"Good for catching a man, or multiple tree gnomes!\"",
     "string": null,
     "wood": "2",
     "metal": null,

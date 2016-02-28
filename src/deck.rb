@@ -1,9 +1,10 @@
 require 'squib'
-require_relative 'squib_helpers.rb'
+require_relative 'squib_helpers'
+require_relative 'build_groups'
 
 dims = {
-  'junk' => {width: 825, height: 1125, rotate: false},
-  'friends' => {width: 1125, height: 825, rotate: false},
+  'junk'    => { width: 825, height: 1125, rotate: false },
+  'friends' => { width: 1125, height: 825, rotate: false },
 }
 
 %w(junk friends).each_with_index do |type, i|
