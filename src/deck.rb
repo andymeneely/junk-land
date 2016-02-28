@@ -35,7 +35,7 @@ pallete = get_pallete_from_env
 
     text str: data['Name'], layout: "title_#{pallete}"
     text str: data['snark'], layout: :snark
-    text str: "Built #{Date.today}", layout: :version
+    text str: "Built #{version_string}", layout: :version
 
     # Each resource gets its own layout entry
     %w(string wood metal glass duct_tape).each do |resource|
@@ -78,15 +78,21 @@ pallete = get_pallete_from_env
       png file: 'tgc-proof-overlay.png'
     end
 
-    # enable_group :full
+    enable_group :full
     group :full do
       save_png format: :png, prefix: "#{type}_", rotate: dims[type][:rotate]
       save_pdf file: "#{type}.pdf", trim: 37.5
     end
 
+    # enable_group :dropbox
+    group :dropbox do
+      save_png format: :png, prefix: "#{type}_", rotate: dims[type][:rotate],
+               dir: dropbox_dir
+    end
+
     enable_group :dev
     group :dev do
-      save_png range: 0..1, prefix: "#{type}_"
+      save_png range: [0,1], prefix: "#{type}_"
       save_png range: 38, prefix: "#{type}_" if type == 'junk'
     end
 

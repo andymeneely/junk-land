@@ -27,7 +27,11 @@ def get_pallete_from_env
 end
 
 def version_string
-  Time.now.strftime('%Y-%M-%d')
+  Time.now.strftime('%Y-%m-%d')
+end
+
+def dropbox_dir
+  "#{ENV['DROPBOX_DIR']}/JunkLandBuilds/#{version_string}"
 end
 
 def recolor_svg(file, pallete)
