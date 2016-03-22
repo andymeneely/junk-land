@@ -13,8 +13,8 @@ puts '--- Connecting to Dropbox ---'
 client = DropboxClient.new(access_token)
 
 puts '--- Uploading Files ---'
-Dir['_output/*.pdf'].each do |pdf|
-  file = open(pdf)
-  response = client.put_file("/Testing/#{pdf}", file)
-  pp "  uploaded:", response.inspect
-end
+# Dir['_output/*.pdf'].each do |pdf|
+file = open('_output/junk.pdf')
+response = client.put_file("/Testing/junk.pdf", file)
+pp "  uploaded:", response.inspect
+# end
