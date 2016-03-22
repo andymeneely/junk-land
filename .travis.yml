@@ -5,4 +5,6 @@ cache: bundler # cache bundled gems from build to build
 rvm:
   - 2.2
 
-script: bundle exec rake travis
+script:
+  - bundle install
+  - bundle exec rake travis
