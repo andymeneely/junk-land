@@ -6,5 +6,6 @@ rvm:
   - 2.2
 
 script:
+  - gem install cairo
   - gem install dropbox-sdk
   - bundle exec rake travis
