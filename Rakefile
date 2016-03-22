@@ -1,6 +1,5 @@
 require 'squib'
 
-
 desc 'Build black-and-white only'
 task default: [:bw]
 
@@ -20,3 +19,12 @@ task :color do
   ENV['SQUIB_BUILD_GROUPS'] = 'color'
   load 'src/deck.rb'
 end
+
+desc 'Post to dropbox'
+task :dropbox do
+  puts "=== Uploading to Dropbox ==="
+  load 'src/upload_dropbox.rb'
+end
+
+desc 'Travis build'
+task :travis => [:all, :dropbox]
