@@ -3,7 +3,7 @@ require 'pp'
 
 def access_token
   if ENV.key? 'DROPBOX_ACCESS_TOKEN'
-    return ENV['DROPBOX_ACCESS_TOKEN'
+    return ENV['DROPBOX_ACCESS_TOKEN']
   else
     raise 'Need token in DROPBOX_ACCESS_TOKEN environment variable'
   end
