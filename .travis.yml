@@ -6,5 +6,7 @@ rvm:
   - 2.2
 
 script:
-  - gem install dropbox-sdk
+  - mkdir ~/.fonts
+  - cp fonts/*.ttf ~/.fonts
+  - fc-cache -f -v
   - bundle exec rake travis
